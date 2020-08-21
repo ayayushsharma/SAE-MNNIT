@@ -1,2 +1,2 @@
 # SAE-MNNIT
-This is official Webssite of SAE Collegiate Club of MNNIT.
+This is official Website of SAE Collegiate Club of MNNIT.
