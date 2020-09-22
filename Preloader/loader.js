@@ -30,5 +30,5 @@ document.addEventListener("DOMContentLoaded", function() {
 window.onload = function() 
     {
         //display loader on page load 
-        $('#loader').fadeOut(400);
+        $('#loader').fadeOut(1000);
     }
