@@ -546,7 +546,6 @@ section {
 #counter up &projects
 --------------------------------------------------------------*/
 #projects{
-  background-image:url('../img/proj_back.jpg');
   background-repeat:repeat;
 }
 #projects-title,#sponser-title{
@@ -555,14 +554,14 @@ section {
     color: #212121;
     line-height: 52px;
     padding-bottom: 20px;
-    font-weight: 700;
+    font-weight: 600;
     text-align: center;
     text-transform: uppercase;
     position: relative;
     margin-bottom: 15px;
 }
- #projects-title::before,#sponser-title::before{
-  position: absolute;
+ #sponser-title::before{
+    position: absolute;
     content: '';
     left: 15px;
     bottom: 8px;
@@ -570,27 +569,30 @@ section {
     height: 1px;
     background-color: #E91E63;
 }
-#projects-title::before{
-  left: 50%;
-    margin-left: -45px;
-}
-#projects-title::after{
-  margin-left: -30px;
 
-    left: 50%;
+ #projects-title::before{
+  content: "";
+  width: 50px;
+  height: 2px;
+  display: inline-block;
+  background: #e27765;
+  opacity:0.5;
+  margin-bottom:10px;
+  margin-right:10px;
 }
+
 #projects-title::after{
- position: absolute;
-    content: '';
-    left: 0px;
-    bottom: 2px;
-    width: 48px;
-    height: 1px;
-    background-color: #E91E63;
+  content: "";
+  width: 50px;
+  height: 2px;
+  display: inline-block;
+  background: #e27765;
+  opacity:0.5;
+  margin-bottom:10px;
+  margin-left:10px;
 }
 
 .counter{
-  
   display:flex;
   flex-direction:row;
   flex-wrap:nowrap;
@@ -599,25 +601,27 @@ section {
    margin-bottom:23px;
 }
 .counter>div{
-  width:250px;
-background-color:#fff;
-  height:250px;
+  min-width:200px;
+  border: 1px solid #ebebeb;
+  width:23.5%;
+  background-color:#fff;
+  height:200px;
   border-radius:5px;
-  box-shadow:1px 2px 2px  grey;
-  margin:10px;
-  background-image:url('../img/cout-back.jpg');
+  margin:5px;
   background-repeat:no-repeat;
   background-size:cover;
   z-index:-0.5;
 }
 .counter>div:hover{
-animation:pulse; /* referring directly to the animation's @keyframe declaration */
-  animation-duration: 2s; /* don't forget to set a duration! */
+  border-color: #fff;
+  animation:pulse; /* referring directly to the animation's @keyframe declaration */
+  box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+  animation-duration: 1s; /* don't forget to set a duration! */
 }
 .counter-text{
-  font-size:70px;
-  margin-top:30%;
-  color:white;
+  font-size:50px;
+  margin-top:10%;
+  color:rgba(0,0,0,.5);
  
 }
 .counter>div>p>a{
@@ -635,6 +639,7 @@ animation:pulse; /* referring directly to the animation's @keyframe declaration 
 
 .counter>div>p>a:hover{
   transform:scale(0.75);
+
 }
 @media(max-width:850px){
   .counter{
@@ -1235,6 +1240,7 @@ margin:4px 10px;
   max-width: 65%;
   margin-left: 285px;
 }
+
 
 
 
