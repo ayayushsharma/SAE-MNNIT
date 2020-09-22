@@ -1,26 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 	        <link rel = "stylesheet" type = "text/css" href = "../Preloader/loader.css" />
         <script type="text/javascript" src="../Preloader/loader.js"></script>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
   <title>TEAMS-SAE MNNIT</title>
   <meta content="" name="descriptison">
   <meta content="" name="keywords">
-
 <!-- Font Awsome -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
 <!-- Favicons -->
 <link href="assets/img/logo.jpeg" rel="icon">
 <link href="assets/img/logo.jpeg" rel="Logo-icon">
-
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Condensed:300,400,600i&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Condensed:300,400,600i&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -30,12 +25,10 @@
   <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 <style>
   @import url("https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400;500&display=swap");
-
   .container-of-card {
   display: grid;
   grid-template-columns: 305px;
@@ -56,12 +49,10 @@
   box-shadow: 8px 16px 8px 16px rgba(163, 161, 161, 0.2);
   color: white;
 }
-
 .card__name {
   margin-top: 15px;
   font-size: 1.5em;
 }
-
 .card__image {
   height: 160px;
   width: 160px;
@@ -70,8 +61,6 @@
   margin-top: 20px;
   box-shadow: 0 20px 50px #ff6b51;
 }
-
-
 .draw-border {
   box-shadow: inset 0 0 0 4px #58cdd1;
   color: #58afd1;
@@ -79,7 +68,6 @@
   transition: color 0.25s 0.0833333333s;
   position: relative;
 }
-
 .draw-border::before,
 .draw-border::after {
   border: 0 solid transparent;
@@ -92,21 +80,17 @@
   bottom: 0;
   right: 0;
 }
-
 .draw-border::before {
   border-bottom-width: 4px;
   border-left-width: 4px;
 }
-
 .draw-border::after {
   border-top-width: 4px;
   border-right-width: 4px;
 }
-
 .draw-border:hover {
   color: #ffe593;
 }
-
 .draw-border:hover::before,
 .draw-border:hover::after {
   border-color: #eb196e;
@@ -115,17 +99,14 @@
   width: 100%;
   height: 100%;
 }
-
 .draw-border:hover::before {
   -webkit-transition-delay: 0s, 0s, 0.25s;
   transition-delay: 0s, 0s, 0.25s;
 }
-
 .draw-border:hover::after {
   -webkit-transition-delay: 0s, 0.25s, 0s;
   transition-delay: 0s, 0.25s, 0s;
 }
-
 .btn {
   background: none;
   border: none;
@@ -137,25 +118,20 @@
   margin: 1em;
   width: 13rem;
 }
-
 .btn:focus {
   outline: 2px dotted #55d7dc;
 }
-
-
 .social-icons {
   padding: 0;
   list-style: none;
   margin: 1em;
 }
-
 .social-icons li {
   display: inline-block;
   margin: 0.15em;
   position: relative;
   font-size: 1em;
 }
-
 .social-icons i {
   color: #fff;
   position: absolute;
@@ -163,11 +139,9 @@
   left: 0.96em;
   transition: all 265ms ease-out;
 }
-
 .social-icons a {
   display: inline-block;
 }
-
 .social-icons a:before {
   transform: scale(1);
   -ms-transform: scale(1);
@@ -180,12 +154,10 @@
   background: linear-gradient(45deg, #ff7b64, #ff0000);
   transition: all 265ms ease-out;
 }
-
 .social-icons a:hover:before {
   transform: scale(0);
   transition: all 265ms ease-in;
 }
-
 .social-icons a:hover i {
   transform: scale(2.2);
   -ms-transform: scale(2.2);
@@ -196,7 +168,6 @@
   -webkit-text-fill-color: transparent;
   transition: all 265ms ease-in;
 }
-
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -247,7 +218,7 @@
   background-position: center;
   height: 100%;
   background-repeat: no-repeat;
-  background-size: cover; 
+  background-size: cover;
 }
 .Team-ABS{
   background-image: url("assets/img/Team-wall/Team-abs.jpg");
@@ -258,7 +229,6 @@
   background-size: cover;
   margin-bottom: -60px;
 }
-
 /* ***********HORIZONTAL LINES************************** */
 hr.sep-3 {
   border: none;
@@ -279,16 +249,15 @@ hr.sep-3::after {
 </head>
 
 <body>
+	<div id="loader"></div>
 	<div id="loader"><img src="../Preloader/load.gif"></div>
         <disv id="content">
   <!-- ======= Header ======= -->
   <header id="header" class="header-inner-pages fixed-top">
     <div class="container d-flex align-items-center justify-content-between">
-
       <div id="see"><h1 class="logo"><a href="../Home/index.html">SAE MNNIT</a></h1></div>
-     
-       <a href="../Home/index.html" class="logo"><img src="assets/img/sae_logo (2).png" style="padding-right:35px;  max-height: 65px;" alt="" class="img-fluid"></a>
 
+       <a href="../Home/index.html" class="logo"><img src="assets/img/sae_logo (2).png" style="padding-right:35px;  max-height: 65px;" alt="" class="img-fluid"></a>
        <nav class="nav-menu d-none d-lg-block">
         <ul>
           <li><a href="../Home/index.html">Home</a></li>
@@ -301,16 +270,12 @@ hr.sep-3::after {
 		  <li><a href="../Sponsors/sponsors.html">Sponsors</a></li>
         </ul>
       </nav><!-- .nav-menu -->
-
     </div>
   </header><!-- End Header -->
-
   <main id="main">
-
     <!-- ======= Breadcrumbs ======= -->
     <section class="breadcrumbs">
       <div class="container">
-
         <div class="d-flex justify-content-between align-items-center">
           <h1>Our Teams</h1>
           <ol>
@@ -318,16 +283,14 @@ hr.sep-3::after {
             <li>Teams</li>
           </ol>
         </div>
-
       </div>
     </section><!-- End Breadcrumbs -->
-
     <section class="inner-page">
       <center>
       <div class="container Team-solar">
          <h2 class="team-head" style="margin-bottom: 50px;">TEAM SOLAREC - SOLAR EV</h2>
          <div class="row">
-           <div class="col-xs-12 col-md-4" style="margin-bottom: 20px;">
+           <div class="col-xs-12 col-md-12 col-4" style="margin-bottom: 20px;">
             <div class="container-of-card" style="margin-bottom: 40px;padding-bottom: 50px;">
               <div class="card" style="height: 350px">
                 <img src="assets/img/profiles/saurabh.jpeg"
@@ -335,12 +298,12 @@ hr.sep-3::after {
                 <p class="card__name"><b>Saurabh Singh</b></p>
                 <center><p class="card__name" style="margin-top: -12px">Captain</p></center>
                 <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Mechanical Engineering</p></center>
-                
-            
+
+
               </div>
             </div>
            </div>
-           <div class="col-xs-12 col-md-4" style="margin-bottom: 20px;">
+           <div class="col-xs-12 col-md-12 col-4" style="margin-bottom: 20px;">
             <div class="container-of-card" style="margin-bottom: 40px;">
               <div class="card" style="height: 350px">
                 <img src="assets/img/profiles/Neeraj.jpeg"
@@ -348,102 +311,102 @@ hr.sep-3::after {
                 <p class="card__name"><b>Neeraj Balani </b></p>
                 <center><p class="card__name" style="margin-top: -12px">Vice-Captain</p></center>
                 <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Production and Industrial Engineering</p></center>
-                
-            
+
+
               </div>
             </div>
           </div>
-          <div class="col-xs-12 col-md-4" style="margin-bottom: 20px;">
+          <div class="col-xs-12 col-md-12 col-4" style="margin-bottom: 20px;">
             <div class="container-of-card" style="margin-bottom: 40px;">
               <div class="card" style="height: 350px">
                 <img src="assets/img/profiles/dhruv.jpg"
                      class="card__image">
                 <p class="card__name"><b>Dhruv Singh</b></p>
                 <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Mechanical Engineering</p></center>
-                
-            
+
+
               </div>
             </div>
           </div>
          </div>
          <div class="row">
-          <div class="col-xs-12 col-md-4" style="margin-bottom: 20px;">
+          <div class="col-xs-12 col-md-12 col-4" style="margin-bottom: 20px;">
            <div class="container-of-card" style="margin-bottom: 40px;">
              <div class="card" style="height: 350px">
                <img src="assets/img/profiles/Imran.jfif"
                     class="card__image">
                <p class="card__name"><b>Imran Ali</b></p>
                <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Mechanical Engineering</p></center>
-               
-           
+
+
              </div>
            </div>
           </div>
-          <div class="col-xs-12 col-md-4" style="margin-bottom: 20px;">
+          <div class="col-xs-12 col-md-12 col-4" style="margin-bottom: 20px;">
            <div class="container-of-card" style="margin-bottom: 40px;">
              <div class="card" style="height: 350px">
                <img src="assets/img/profiles/Mani.PNG"
                     class="card__image">
                <p class="card__name"><b>Mani Sanguri</b></p>
                <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Mechanical Engineering</p></center>
-                
-           
+
+
              </div>
            </div>
          </div>
-         <div class="col-xs-12 col-md-4" style="margin-bottom: 20px;">
+         <div class="col-xs-12 col-md-12 col-4" style="margin-bottom: 20px;">
            <div class="container-of-card" style="margin-bottom: 40px;">
              <div class="card" style="height: 350px">
                <img src="assets/img/profiles/Naman Patel.jpeg"
                     class="card__image">
                <p class="card__name"><b>Naman Patel</b></p>
                <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Production and Industrial Engineering</p></center>
-                
-           
+
+
              </div>
            </div>
          </div>
         </div>
         <div class="row">
-          <div class="col-xs-12 col-md-4" style="margin-bottom: 20px;">
+          <div class="col-xs-12 col-md-12 col-4" style="margin-bottom: 20px;">
            <div class="container-of-card" style="margin-bottom: 40px;">
              <div class="card" style="height: 350px">
                <img src="assets/img/profiles/Nilotpal.jpg"
                     class="card__image">
                <p class="card__name"><b>Nilotpal Mukherjee</b></p>
                <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Mechanical Engineering</p></center>
-                
-           
+
+
              </div>
            </div>
           </div>
-          <div class="col-xs-12 col-md-4" style="margin-bottom: 20px;">
+          <div class="col-xs-12 col-md-12 col-4" style="margin-bottom: 20px;">
            <div class="container-of-card" style="margin-bottom: 40px;">
              <div class="card" style="height: 350px">
                <img src="assets/img/profiles/pratyush.png"
                     class="card__image">
                <p class="card__name"><b>Pratyush Tiwari</b></p>
                <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Mechanical Engineering</p></center>
-                
-           
+
+
              </div>
            </div>
          </div>
-         <div class="col-xs-12 col-md-4" style="margin-bottom: 20px;">
+         <div class="col-xs-12 col-md-12 col-4" style="margin-bottom: 20px;">
            <div class="container-of-card" style="margin-bottom: 40px;">
              <div class="card" style="height: 350px">
                <img src="assets/img/profiles/Shubham.jpg"
                     class="card__image">
                <p class="card__name"><b>Shubham Kumar</b></p>
                <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Production and Industrial Engineering</p></center>
-                
-           
+
+
              </div>
            </div>
-         </div> 
+         </div>
         </div>
         <div class="row">
-          <div class="col-xs-12 col-md-4" style="margin-bottom: 20px;">
+          <div class="col-xs-12 col-md-12 col-4" style="margin-bottom: 20px;">
            <div class="container-of-card" style="margin-bottom: 40px;">
              <div class="card" style="height: 350px">
                <img src="assets/img/profiles/sujit kumar.jpg"
@@ -451,11 +414,11 @@ hr.sep-3::after {
                <p class="card__name"><b>Sujit Kumar</b></p>
                <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Production and Industrial Engineering</p></center>
                <!--social-->
-           
+
              </div>
            </div>
           </div>
-          <div class="col-xs-12 col-md-4" style="margin-bottom: 20px;">
+          <div class="col-xs-12 col-md-12 col-4" style="margin-bottom: 20px;">
            <div class="container-of-card" style="margin-bottom: 40px;">
              <div class="card" style="height: 350px">
                <img src="assets/img/profiles/Vinayak.jfif"
@@ -463,11 +426,11 @@ hr.sep-3::after {
                <p class="card__name"><b>Vinayak Kumar</b></p>
                <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Production and Industrial Engineering</p></center>
                <!--social-->
-           
+
              </div>
            </div>
          </div>
-         <div class="col-xs-12 col-md-4" style="margin-bottom: 20px;">
+         <div class="col-xs-12 col-md-12 col-4" style="margin-bottom: 20px;">
            <div class="container-of-card" style="margin-bottom: 40px;">
              <div class="card" style="height: 350px">
                <img src="assets/img/profiles/Ammar.jpg"
@@ -475,13 +438,13 @@ hr.sep-3::after {
                <p class="card__name"><b>Ammar Raza</b></p>
                <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Mechanical Engineering</p></center>
                <!--social-->
-           
+
              </div>
            </div>
          </div>
         </div>
         <div class="row">
-          <div class="col-xs-12 col-md-4" style="margin-bottom: 20px;">
+          <div class="col-xs-12 col-md-12 col-4" style="margin-bottom: 20px;">
            <div class="container-of-card" style="margin-bottom: 40px;">
              <div class="card" style="height: 350px">
                <img src="assets/img/profiles/Deepankur.jpg"
@@ -489,11 +452,11 @@ hr.sep-3::after {
                <p class="card__name"><b>Deepankur Agrahari</b></p>
                <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Mechanical Engineering</p></center>
                <!--social-->
-           
+
              </div>
            </div>
           </div>
-          <div class="col-xs-12 col-md-4" style="margin-bottom: 20px;">
+          <div class="col-xs-12 col-md-12 col-4" style="margin-bottom: 20px;">
            <div class="container-of-card" style="margin-bottom: 40px;">
              <div class="card" style="height: 350px">
                <img src="assets/img/profiles/Devashish.jfif"
@@ -501,11 +464,11 @@ hr.sep-3::after {
                <p class="card__name"><b>Devashish Tomar</b></p>
                <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Mechanical Engineering</p></center>
                <!--social-->
-           
+
              </div>
            </div>
          </div>
-         <div class="col-xs-12 col-md-4" style="margin-bottom: 20px;">
+         <div class="col-xs-12 col-md-12 col-4" style="margin-bottom: 20px;">
            <div class="container-of-card" style="margin-bottom: 40px;">
              <div class="card" style="height: 350px">
                <img src="assets/img/profiles/GAURAV.jpg"
@@ -513,13 +476,13 @@ hr.sep-3::after {
                <p class="card__name"><b>Gaurav Sharma</b></p>
                <center><p class="card__name" style="margin-top: -12px">Mechanical Engineering</p></center>
                <!--social-->
-           
+
              </div>
            </div>
          </div>
         </div>
         <div class="row">
-          <div class="col-xs-12 col-md-4" style="margin-bottom: 20px;">
+          <div class="col-xs-12 col-md-12 col-4" style="margin-bottom: 20px;">
            <div class="container-of-card" style="margin-bottom: 40px;">
              <div class="card" style="height: 350px">
                <img src="assets/img/profiles/Rajeshwar.jpg"
@@ -527,11 +490,11 @@ hr.sep-3::after {
                <p class="card__name"><b>Rajeshwar Gupta</b></p>
                <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Mechanical Engineering</p></center>
                <!--social-->
-           
+
              </div>
            </div>
           </div>
-          <div class="col-xs-12 col-md-4" style="margin-bottom: 20px;">
+          <div class="col-xs-12 col-md-12 col-4" style="margin-bottom: 20px;">
            <div class="container-of-card" style="margin-bottom: 40px;">
              <div class="card" style="height: 350px">
                <img src="assets/img/profiles/Rishabh.png"
@@ -539,11 +502,11 @@ hr.sep-3::after {
                <p class="card__name"><b>Rishabh Singh</b></p>
                <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Mechanical Engineering</p></center>
                <!--social-->
-           
+
              </div>
            </div>
          </div>
-         <div class="col-xs-12 col-md-4" style="margin-bottom: 20px;">
+         <div class="col-xs-12 col-md-12 col-4" style="margin-bottom: 20px;">
            <div class="container-of-card" style="margin-bottom: 40px;">
              <div class="card" style="height: 350px">
                <img src="assets/img/profiles/Satkrit.jpg"
@@ -551,13 +514,13 @@ hr.sep-3::after {
                <p class="card__name"><b>Satkrit Jaiswal</b></p>
                <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Mechanical Engineering</p></center>
                <!--social-->
-           
+
              </div>
            </div>
          </div>
         </div>
         <div class="row">
-          <div class="col-xs-12 col-md-4" style="margin-bottom: 20px;">
+          <div class="col-xs-12 col-md-12 col-4" style="margin-bottom: 20px;">
            <div class="container-of-card" style="margin-bottom: 40px;">
              <div class="card" style="height: 350px">
                <img src="assets/img/profiles/SUDYUT.jpg"
@@ -565,11 +528,11 @@ hr.sep-3::after {
                <p class="card__name"><b>Sudyut Singh</b></p>
                <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Production and Industrial Engineering</p></center>
                <!--social-->
-           
+
              </div>
            </div>
           </div>
-          <div class="col-xs-12 col-md-4" style="margin-bottom: 20px;">
+          <div class="col-xs-12 col-md-12 col-4" style="margin-bottom: 20px;">
            <div class="container-of-card" style="margin-bottom: 40px;">
              <div class="card" style="height: 350px">
                <img src="assets/img/profiles/sumit.jpg"
@@ -577,11 +540,11 @@ hr.sep-3::after {
                <p class="card__name"><b>Sumit Swami</b></p>
                <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Production and Industrial Engineering</p></center>
                <!--social-->
-           
+
              </div>
            </div>
          </div>
-         <div class="col-xs-12 col-md-4" style="margin-bottom: 20px;">
+         <div class="col-xs-12 col-md-12 col-4" style="margin-bottom: 20px;">
            <div class="container-of-card" style="margin-bottom: 40px;">
              <div class="card" style="height: 350px">
                <img src="assets/img/profiles/Suryansh.jpg"
@@ -589,13 +552,13 @@ hr.sep-3::after {
                <p class="card__name"><b>Suryansh Tyagi</b></p>
                <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Mechanical Engineering</p></center>
                <!--social-->
-           
+
              </div>
            </div>
          </div>
         </div>
         <div class="row">
-          <div class="col-xs-12 col-md-4" style="margin-bottom: 20px;">
+          <div class="col-xs-12 col-md-12 col-4" style="margin-bottom: 20px;">
            <div class="container-of-card" style="margin-bottom: 40px;">
              <div class="card" style="height: 350px">
                <img src="assets/img/profiles/swapnil.jpg"
@@ -603,11 +566,11 @@ hr.sep-3::after {
                <p class="card__name"><b>Swapnil Bansal</b></p>
                <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Production and Industrial Engineering</p></center>
                <!--social-->
-           
+
              </div>
            </div>
           </div>
-          <div class="col-xs-12 col-md-4" style="margin-bottom: 20px;">
+          <div class="col-xs-12 col-md-12 col-4" style="margin-bottom: 20px;">
            <div class="container-of-card" style="margin-bottom: 40px;">
              <div class="card" style="height: 350px">
                <img src="assets/img/profiles/souhardya.jpg"
@@ -615,11 +578,11 @@ hr.sep-3::after {
                <p class="card__name"><b>Sauhardya Chatterjee</b></p>
                <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Production and Industrial Engineering</p></center>
                <!--social-->
-           
+
              </div>
            </div>
          </div>
-         <div class="col-xs-12 col-md-4" style="margin-bottom: 20px;">
+         <div class="col-xs-12 col-md-12 col-4" style="margin-bottom: 20px;">
            <div class="container-of-card" style="margin-bottom: 40px;">
              <div class="card" style="height: 350px">
                <img src="assets/img/profiles/Varun.jpg"
@@ -627,7 +590,7 @@ hr.sep-3::after {
                <p class="card__name"><b>Varun Raj</b></p>
                <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Mechanical Engineering</p></center>
                <!--social-->
-           
+
              </div>
            </div>
          </div>
@@ -639,7 +602,7 @@ hr.sep-3::after {
       <div class="container Team-fortius">
          <h2 class="team-head" style="margin-bottom: 50px;">FORTIUS RACING - GO KART</h2>
          <div class="row">
-           <div class="col-xs-12 col-md-4" style="margin-bottom: 20px;">
+           <div class="col-xs-12 col-md-12 col-4" style="margin-bottom: 20px;">
             <div class="container-of-card" style="margin-bottom: 40px;padding-bottom: 50px;">
               <div class="card" style="height: 350px">
                 <img src="assets/img/profiles/shishir.png"
@@ -647,12 +610,12 @@ hr.sep-3::after {
                 <p class="card__name"><b>Shishir Agrahari </b></p>
                 <center><p class="card__name" style="margin-top: -12px">Captain</p></center>
                 <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Mechanical Engineering</p></center>
-                
-            
+
+
               </div>
             </div>
            </div>
-           <div class="col-xs-12 col-md-4" style="margin-bottom: 20px;">
+           <div class="col-xs-12 col-md-12 col-4" style="margin-bottom: 20px;">
             <div class="container-of-card" style="margin-bottom: 40px;">
               <div class="card" style="height: 350px">
                 <img src="assets/img/profiles/manas.png"
@@ -660,26 +623,26 @@ hr.sep-3::after {
                 <p class="card__name"><b>Manas Shrivstava </b></p>
                 <center><p class="card__name" style="margin-top: -12px">Vice-Captain</p></center>
                 <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Production and Industrial Engineering</p></center>
-                
-            
+
+
               </div>
             </div>
           </div>
-          <div class="col-xs-12 col-md-4" style="margin-bottom: 20px;">
+          <div class="col-xs-12 col-md-12 col-4" style="margin-bottom: 20px;">
             <div class="container-of-card" style="margin-bottom: 40px;">
               <div class="card" style="height: 350px">
                 <img src="assets/img/profiles/Ajay_Patidar.jpg"
                      class="card__image">
                 <p class="card__name"><b>Ajay Patidar</b></p>
                 <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Mechanical Engineering</p></center>
-                
-            
+
+
               </div>
             </div>
           </div>
          </div>
          <div class="row">
-          <div class="col-xs-12 col-md-4" style="margin-bottom: 20px;">
+          <div class="col-xs-12 col-md-12 col-4" style="margin-bottom: 20px;">
            <div class="container-of-card" style="margin-bottom: 40px;">
              <div class="card" style="height: 350px">
                <img src="assets/img/profiles/umang.png"
@@ -687,11 +650,11 @@ hr.sep-3::after {
                <p class="card__name"><b>Umang Jain</b></p>
                <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Production and Industrial Engineering</p></center>
                <!--social-->
-           
+
              </div>
            </div>
           </div>
-          <div class="col-xs-12 col-md-4" style="margin-bottom: 20px;">
+          <div class="col-xs-12 col-md-12 col-4" style="margin-bottom: 20px;">
            <div class="container-of-card" style="margin-bottom: 40px;">
              <div class="card" style="height: 350px">
                <img src="assets/img/profiles/utkarsh_sir.png"
@@ -699,11 +662,11 @@ hr.sep-3::after {
                <p class="card__name"><b>Utkash Sharma</b></p>
                <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Mechanical Engineering</p></center>
                <!--social-->
-           
+
              </div>
            </div>
          </div>
-         <div class="col-xs-12 col-md-4" style="margin-bottom: 20px;">
+         <div class="col-xs-12 col-md-12 col-4" style="margin-bottom: 20px;">
            <div class="container-of-card" style="margin-bottom: 40px;">
              <div class="card" style="height: 350px">
                <img src="assets/img/profiles/ashwani.jpg"
@@ -711,13 +674,13 @@ hr.sep-3::after {
                <p class="card__name"><b>Ashwini Kr. Jaiswal</b></p>
                <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Mechanical Engineering</p></center>
                <!--social-->
-           
+
              </div>
            </div>
          </div>
         </div>
         <div class="row">
-          <div class="col-xs-12 col-md-4" style="margin-bottom: 20px;">
+          <div class="col-xs-12 col-md-12 col-4" style="margin-bottom: 20px;">
            <div class="container-of-card" style="margin-bottom: 40px;">
              <div class="card" style="height: 350px">
                <img src="assets/img/profiles/Nutan.jpg"
@@ -725,11 +688,11 @@ hr.sep-3::after {
                <p class="card__name"><b>Gaurank Pandey</b></p>
                <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Mechanical Engineering</p></center>
                <!--social-->
-           
+
              </div>
            </div>
           </div>
-          <div class="col-xs-12 col-md-4" style="margin-bottom: 20px;">
+          <div class="col-xs-12 col-md-12 col-4" style="margin-bottom: 20px;">
            <div class="container-of-card" style="margin-bottom: 40px;">
              <div class="card" style="height: 350px">
                <img src="assets/img/profiles/thomas.png"
@@ -737,11 +700,11 @@ hr.sep-3::after {
                <p class="card__name"><b>Thomas Cyraic</b></p>
                <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Mechanical Engineering</p></center>
                <!--social-->
-           
+
              </div>
            </div>
          </div>
-         <div class="col-xs-12 col-md-4" style="margin-bottom: 20px;">
+         <div class="col-xs-12 col-md-12 col-4" style="margin-bottom: 20px;">
            <div class="container-of-card" style="margin-bottom: 40px;">
              <div class="card" style="height: 350px">
                <img src="assets/img/profiles/ahmad.png"
@@ -749,13 +712,13 @@ hr.sep-3::after {
                <p class="card__name"><b>Ahmad Yusuf</b></p>
                <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Mechanical Engineering</p></center>
                <!--social-->
-           
+
              </div>
            </div>
          </div>
         </div>
         <div class="row">
-          <div class="col-xs-12 col-md-4" style="margin-bottom: 20px;">
+          <div class="col-xs-12 col-md-12 col-4" style="margin-bottom: 20px;">
            <div class="container-of-card" style="margin-bottom: 40px;">
              <div class="card" style="height: 350px">
                <img src="assets/img/profiles/aman.png"
@@ -763,11 +726,11 @@ hr.sep-3::after {
                <p class="card__name"><b>Aman Jhawar</b></p>
                <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Mechanical Engineering</p></center>
                <!--social-->
-           
+
              </div>
            </div>
           </div>
-          <div class="col-xs-12 col-md-4" style="margin-bottom: 20px;">
+          <div class="col-xs-12 col-md-12 col-4" style="margin-bottom: 20px;">
            <div class="container-of-card" style="margin-bottom: 40px;">
              <div class="card" style="height: 350px">
                <img src="assets/img/profiles/Hardik.jpg"
@@ -775,11 +738,11 @@ hr.sep-3::after {
                <p class="card__name"><b>Hardik Chugh</b></p>
                <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Production and Industral Engineering</p></center>
                <!--social-->
-           
+
              </div>
            </div>
          </div>
-         <div class="col-xs-12 col-md-4" style="margin-bottom: 20px;">
+         <div class="col-xs-12 col-md-12 col-4" style="margin-bottom: 20px;">
            <div class="container-of-card" style="margin-bottom: 40px;">
              <div class="card" style="height: 350px">
                <img src="assets/img/profiles/Ravi_Kumar.jpg"
@@ -787,13 +750,13 @@ hr.sep-3::after {
                <p class="card__name"><b>Ravi Kumar</b></p>
                <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Mechanical Engineering</p></center>
                <!--social-->
-           
+
              </div>
            </div>
          </div>
         </div>
         <div class="row">
-          <div class="col-xs-12 col-md-4" style="margin-bottom: 20px;">
+          <div class="col-xs-12 col-md-12 col-4" style="margin-bottom: 20px;">
            <div class="container-of-card" style="margin-bottom: 40px;">
              <div class="card" style="height: 350px">
                <img src="assets/img/profiles/radhey.png"
@@ -801,11 +764,11 @@ hr.sep-3::after {
                <p class="card__name"><b>Radhey Mishra</b></p>
                <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Mechanical Engineering</p></center>
                <!--social-->
-           
+
              </div>
            </div>
           </div>
-          <div class="col-xs-12 col-md-4" style="margin-bottom: 20px;">
+          <div class="col-xs-12 col-md-12 col-4" style="margin-bottom: 20px;">
            <div class="container-of-card" style="margin-bottom: 40px;">
              <div class="card" style="height: 350px">
                <img src="assets/img/profiles/piyush.jpg"
@@ -813,11 +776,11 @@ hr.sep-3::after {
                <p class="card__name"><b>Piyush Pratap Singh</b></p>
                <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Mechanical Engineering</p></center>
                <!--social-->
-           
+
              </div>
            </div>
          </div>
-         <div class="col-xs-12 col-md-4" style="margin-bottom: 20px;">
+         <div class="col-xs-12 col-md-12 col-4" style="margin-bottom: 20px;">
            <div class="container-of-card" style="margin-bottom: 40px;">
              <div class="card" style="height: 350px">
                <img src="assets/img/profiles/Piyush_Patel.jpg"
@@ -825,13 +788,13 @@ hr.sep-3::after {
                <p class="card__name"><b>Piyush Kumar</b></p>
                <center><p class="card__name" style="margin-top: -12px">Mechanical Engineering</p></center>
                <!--social-->
-           
+
              </div>
            </div>
          </div>
         </div>
         <div class="row">
-          <div class="col-xs-12 col-md-4" style="margin-bottom: 20px;">
+          <div class="col-xs-12 col-md-12 col-4" style="margin-bottom: 20px;">
            <div class="container-of-card" style="margin-bottom: 40px;">
              <div class="card" style="height: 350px">
                <img src="assets/img/profiles/Shashank _Tiwari.jpg"
@@ -839,11 +802,11 @@ hr.sep-3::after {
                <p class="card__name"><b>Shashank Tiwari</b></p>
                <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Mechanical Engineering</p></center>
                <!--social-->
-           
+
              </div>
            </div>
           </div>
-          <div class="col-xs-12 col-md-4" style="margin-bottom: 20px;">
+          <div class="col-xs-12 col-md-12 col-4" style="margin-bottom: 20px;">
            <div class="container-of-card" style="margin-bottom: 40px;">
              <div class="card" style="height: 350px">
                <img src="assets/img/profiles/shreya.png"
@@ -851,11 +814,11 @@ hr.sep-3::after {
                <p class="card__name"><b>Shreya Singh</b></p>
                <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Mechanical Engineering</p></center>
                <!--social-->
-           
+
              </div>
            </div>
          </div>
-         <div class="col-xs-12 col-md-4" style="margin-bottom: 20px;">
+         <div class="col-xs-12 col-md-12 col-4" style="margin-bottom: 20px;">
            <div class="container-of-card" style="margin-bottom: 40px;">
              <div class="card" style="height: 350px">
                <img src="assets/img/profiles/Pranjal.jpg"
@@ -863,7 +826,7 @@ hr.sep-3::after {
                <p class="card__name"><b>Pranjal Kharwar</b></p>
                <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Mechanical Engineering</p></center>
                <!--social-->
-           
+
              </div>
            </div>
          </div>
@@ -877,7 +840,7 @@ hr.sep-3::after {
                <p class="card__name"><b>Saurabh Singh</b></p>
                <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Mechanical Engineering</p></center>
                <!--social-->
-           
+
              </div>
            </div>
           </div>
@@ -889,13 +852,13 @@ hr.sep-3::after {
                <p class="card__name"><b>Neeraj Balani</b></p>
                <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Production and Industrial Engineering</p></center>
                <!--social-->
-           
+
              </div>
            </div>
          </div>
-         
+
         </div>
-        
+
       </div>
     </center>
     <hr class="sep-3" />
@@ -903,7 +866,7 @@ hr.sep-3::after {
       <div class="container Team-green">
          <h2 class="team-head" style="margin-bottom: 50px;">TEAM GREENWAVE E-BIKE</h2>
          <div class="row">
-           <div class="col-xs-12 col-md-4" style="margin-bottom: 20px;">
+           <div class="col-xs-12 col-md-12 col-4" style="margin-bottom: 20px;">
             <div class="container-of-card" style="margin-bottom: 40px;padding-bottom: 50px;">
               <div class="card" style="height: 350px">
                 <img src="assets/img/profiles/saurabh.jpeg"
@@ -911,12 +874,12 @@ hr.sep-3::after {
                 <p class="card__name"><b>Saurabh Singh</b></p>
                 <center><p class="card__name" style="margin-top: -12px">Captain</p></center>
                 <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Mechanical Engineering</p></center>
-                
-            
+
+
               </div>
             </div>
            </div>
-           <div class="col-xs-12 col-md-4" style="margin-bottom: 20px;">
+           <div class="col-xs-12 col-md-12 col-4" style="margin-bottom: 20px;">
             <div class="container-of-card" style="margin-bottom: 40px;">
               <div class="card" style="height: 350px">
                 <img src="assets/img/profiles/Neeraj.jpeg"
@@ -924,26 +887,26 @@ hr.sep-3::after {
                 <p class="card__name"><b>Neeraj Balan</b></p>
                 <center><p class="card__name" style="margin-top: -12px">Vice-Captain</p></center>
                 <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Production and Industrial Engineering</p></center>
-                
-            
+
+
               </div>
             </div>
           </div>
-          <div class="col-xs-12 col-md-4" style="margin-bottom: 20px;">
+          <div class="col-xs-12 col-md-12 col-4" style="margin-bottom: 20px;">
             <div class="container-of-card" style="margin-bottom: 40px;">
               <div class="card" style="height: 350px">
                 <img src="assets/img/profiles/Priyanshu.jpeg"
                      class="card__image">
                 <p class="card__name"><b>Priyanshu Rai</b></p>
                 <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Mechanical Engineering</p></center>
-                
-            
+
+
               </div>
             </div>
           </div>
          </div>
          <div class="row">
-          <div class="col-xs-12 col-md-4" style="margin-bottom: 20px;">
+          <div class="col-xs-12 col-md-12 col-4" style="margin-bottom: 20px;">
            <div class="container-of-card" style="margin-bottom: 40px;">
              <div class="card" style="height: 350px">
                <img src="assets/img/profiles/samanvay.jpg"
@@ -951,25 +914,24 @@ hr.sep-3::after {
                <p class="card__name"><b>Samanvay Mereddy</b></p>
                <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Production and Industral Engineering</p></center>
                <!--social-->
-           
+
              </div>
            </div>
           </div>
-          <div class="col-xs-12 col-md-4" style="margin-bottom: 20px;">
+          <div class="col-xs-12 col-md-12 col-4" style="margin-bottom: 20px;">
            <div class="container-of-card" style="margin-bottom: 40px;">
              <div class="card" style="height: 350px">
                <img src="assets/img/profiles/Mani.PNG"
                     class="card__image">
                <p class="card__name"><b>Mani Sanguri</b></p>
                <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Mechanical Engineering
-
               </p></center>
                <!--social-->
-           
+
              </div>
            </div>
          </div>
-         <div class="col-xs-12 col-md-4" style="margin-bottom: 20px;">
+         <div class="col-xs-12 col-md-12 col-4" style="margin-bottom: 20px;">
            <div class="container-of-card" style="margin-bottom: 40px;">
              <div class="card" style="height: 350px">
                <img src="assets/img/profiles/Shubham.jpg"
@@ -977,13 +939,13 @@ hr.sep-3::after {
                <p class="card__name"><b>Shubham Kumar</b></p>
                <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Production and Industrial Engineering</p></center>
                <!--social-->
-           
+
              </div>
            </div>
          </div>
         </div>
         <div class="row">
-          <div class="col-xs-12 col-md-4" style="margin-bottom: 20px;">
+          <div class="col-xs-12 col-md-12 col-4" style="margin-bottom: 20px;">
            <div class="container-of-card" style="margin-bottom: 40px;">
              <div class="card" style="height: 350px">
                <img src="assets/img/profiles/Neelam.jpg"
@@ -991,11 +953,11 @@ hr.sep-3::after {
                <p class="card__name"><b>Neelam</b></p>
                <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Production and Industrial Engineering</p></center>
                <!--social-->
-           
+
              </div>
            </div>
           </div>
-          <div class="col-xs-12 col-md-4" style="margin-bottom: 20px;">
+          <div class="col-xs-12 col-md-12 col-4" style="margin-bottom: 20px;">
            <div class="container-of-card" style="margin-bottom: 40px;">
              <div class="card" style="height: 350px">
                <img src="assets/img/profiles/piyush.jpg"
@@ -1003,11 +965,11 @@ hr.sep-3::after {
                <p class="card__name"><b>Piyush Pratap Singh</b></p>
                <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Mechanical Engineering</p></center>
                <!--social-->
-           
+
              </div>
            </div>
          </div>
-         <div class="col-xs-12 col-md-4" style="margin-bottom: 20px;">
+         <div class="col-xs-12 col-md-12 col-4" style="margin-bottom: 20px;">
            <div class="container-of-card" style="margin-bottom: 40px;">
              <div class="card" style="height: 350px">
                <img src="assets/img/profiles/Arpan.jpg"
@@ -1015,13 +977,13 @@ hr.sep-3::after {
                <p class="card__name"><b>Arpan Agnihotri</b></p>
                <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Mechanical Engineering</p></center>
                <!--social-->
-           
+
              </div>
            </div>
          </div>
         </div>
         <div class="row">
-          <div class="col-xs-12 col-md-4" style="margin-bottom: 20px;">
+          <div class="col-xs-12 col-md-12 col-4" style="margin-bottom: 20px;">
            <div class="container-of-card" style="margin-bottom: 40px;">
              <div class="card" style="height: 350px">
                <img src="assets/img/profiles/pratyush.png"
@@ -1029,34 +991,34 @@ hr.sep-3::after {
                <p class="card__name"><b>Pratyush Tiwari</b></p>
                <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Mechanical Engineering</p></center>
                <!--social-->
-           
+
              </div>
            </div>
-          </div>  
-          <div class="col-xs-12 col-md-4" style="margin-bottom: 20px;">
+          </div>
+          <div class="col-xs-12 col-md-12 col-4" style="margin-bottom: 20px;">
             <div class="container-of-card" style="margin-bottom: 40px;">
               <div class="card" style="height: 350px">
                 <img src="assets/img/profiles/dhruv.jpg"
                      class="card__image">
                 <p class="card__name"><b>Dhruv Singh</b></p>
                 <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Mechanical Engineering</p></center>
-                
-            
+
+
               </div>
             </div>
            </div>
-           <div class="col-xs-12 col-md-4" style="margin-bottom: 20px;">
+           <div class="col-xs-12 col-md-12 col-4" style="margin-bottom: 20px;">
             <div class="container-of-card" style="margin-bottom: 40px;">
               <div class="card" style="height: 350px">
                 <img src="assets/img/profiles/Khagendra.jpg"
                      class="card__image">
                 <p class="card__name"><b>Khagendra Singh Chauhan</b></p>
                 <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Production and Industrial Engineering</p></center>
-                
-            
+
+
               </div>
             </div>
-           </div>       
+           </div>
         </div>
         <div class="row">
           <div class="col-xs-12 col-md-12" style="margin-bottom: 20px;">
@@ -1067,10 +1029,10 @@ hr.sep-3::after {
                <p class="card__name"><b>Deeksha Maurya</b></p>
                <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Production and Industrial Engineering</p></center>
                <!--social-->
-           
+
              </div>
            </div>
-          </div>         
+          </div>
         </div>
       </div>
     </center>
@@ -1079,7 +1041,7 @@ hr.sep-3::after {
       <div class="container Team-effi">
          <h2 class="team-head" style="margin-bottom: 50px;">EFFICYCLE 2020</h2>
          <div class="row">
-           <div class="col-xs-12 col-md-4" style="margin-bottom: 20px;">
+           <div class="col-xs-12 col-md-12 col-4" style="margin-bottom: 20px;">
             <div class="container-of-card" style="margin-bottom: 40px;padding-bottom: 50px;">
               <div class="card" style="height: 350px">
                 <img src="assets/img/profiles/Priyanshu.jpeg"
@@ -1087,11 +1049,11 @@ hr.sep-3::after {
                 <p class="card__name"><b>Priyanshu Rai</b></p>
                 <center><p class="card__name" style="margin-top: -12px">Captain</p></center>
                 <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Mechanical Engineering</p></center>
-                
+
               </div>
             </div>
            </div>
-           <div class="col-xs-12 col-md-4" style="margin-bottom: 20px;">
+           <div class="col-xs-12 col-md-12 col-4" style="margin-bottom: 20px;">
             <div class="container-of-card" style="margin-bottom: 40px;">
               <div class="card" style="height: 350px">
                 <img src="assets/img/profiles/samanvay.jpg"
@@ -1099,26 +1061,26 @@ hr.sep-3::after {
                 <p class="card__name"><b>Samanvay Mereddy</b></p>
                 <center><p class="card__name" style="margin-top: -12px">Vice-Captain</p></center>
                 <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Production and Industrial Engineering</p></center>
-                
-            
+
+
               </div>
             </div>
           </div>
-          <div class="col-xs-12 col-md-4" style="margin-bottom: 20px;">
+          <div class="col-xs-12 col-md-12 col-4" style="margin-bottom: 20px;">
             <div class="container-of-card" style="margin-bottom: 40px;">
               <div class="card" style="height: 350px">
                 <img src="assets/img/profiles/Vinayak.jfif"
                      class="card__image">
                 <p class="card__name"><b>Vinayak Kumar</b></p>
                 <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Production and Industrial Engineering</p></center>
-                
-            
+
+
               </div>
             </div>
           </div>
          </div>
          <div class="row">
-          <div class="col-xs-12 col-md-4" style="margin-bottom: 20px;">
+          <div class="col-xs-12 col-md-12 col-4" style="margin-bottom: 20px;">
            <div class="container-of-card" style="margin-bottom: 40px;">
              <div class="card" style="height: 350px">
                <img src="assets/img/profiles/Nishant.jpg"
@@ -1126,11 +1088,11 @@ hr.sep-3::after {
                <p class="card__name"><b>Nishant Sati</b></p>
                <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Mechanical Engineering</p></center>
                <!--social-->
-           
+
              </div>
            </div>
           </div>
-          <div class="col-xs-12 col-md-4" style="margin-bottom: 20px;">
+          <div class="col-xs-12 col-md-12 col-4" style="margin-bottom: 20px;">
            <div class="container-of-card" style="margin-bottom: 40px;">
              <div class="card" style="height: 350px">
                <img src="assets/img/profiles/anshuman.jpg"
@@ -1138,11 +1100,11 @@ hr.sep-3::after {
                <p class="card__name"><b>Anshuman Mishra</b></p>
                <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Mechanical Engineering</p></center>
                <!--social-->
-           
+
              </div>
            </div>
          </div>
-         <div class="col-xs-12 col-md-4" style="margin-bottom: 20px;">
+         <div class="col-xs-12 col-md-12 col-4" style="margin-bottom: 20px;">
            <div class="container-of-card" style="margin-bottom: 40px;">
              <div class="card" style="height: 350px">
                <img src="assets/img/profiles/Neelam.jpg"
@@ -1150,13 +1112,13 @@ hr.sep-3::after {
                <p class="card__name"><b>Neelam</b></p>
                <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Production and Industrial Engineering</p></center>
                <!--social-->
-           
+
              </div>
            </div>
          </div>
         </div>
         <div class="row">
-          <div class="col-xs-12 col-md-4" style="margin-bottom: 20px;">
+          <div class="col-xs-12 col-md-12 col-4" style="margin-bottom: 20px;">
            <div class="container-of-card" style="margin-bottom: 40px;">
              <div class="card" style="height: 350px">
                <img src="assets/img/profiles/Gunjan.jfif"
@@ -1164,11 +1126,11 @@ hr.sep-3::after {
                <p class="card__name"><b>Gunjan Kumar</b></p>
                <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Mechanical Engineering</p></center>
                <!--social-->
-           
+
              </div>
            </div>
           </div>
-          <div class="col-xs-12 col-md-4" style="margin-bottom: 20px;">
+          <div class="col-xs-12 col-md-12 col-4" style="margin-bottom: 20px;">
            <div class="container-of-card" style="margin-bottom: 40px;">
              <div class="card" style="height: 350px">
                <img src="assets/img/profiles/Prerna.jpg"
@@ -1176,11 +1138,11 @@ hr.sep-3::after {
                <p class="card__name"><b>Prerna Rao</b></p>
                <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Mechanical Engineering</p></center>
                <!--social-->
-           
+
              </div>
            </div>
          </div>
-         <div class="col-xs-12 col-md-4" style="margin-bottom: 20px;">
+         <div class="col-xs-12 col-md-12 col-4" style="margin-bottom: 20px;">
            <div class="container-of-card" style="margin-bottom: 40px;">
              <div class="card" style="height: 350px">
                <img src="assets/img/profiles/Abhinav.jpg"
@@ -1188,13 +1150,13 @@ hr.sep-3::after {
                <p class="card__name"><b>Abhinav Tiwari</b></p>
                <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Mechanical Engineering</p></center>
                <!--social-->
-           
+
              </div>
            </div>
          </div>
         </div>
         <div class="row">
-          <div class="col-xs-12 col-md-4" style="margin-bottom: 20px;">
+          <div class="col-xs-12 col-md-12 col-4" style="margin-bottom: 20px;">
            <div class="container-of-card" style="margin-bottom: 40px;">
              <div class="card" style="height: 350px">
                <img src="assets/img/profiles/Imran.jfif"
@@ -1202,11 +1164,11 @@ hr.sep-3::after {
                <p class="card__name"><b>Imran Ali</b></p>
                <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Mechanical Engineering</p></center>
                <!--social-->
-           
+
              </div>
            </div>
           </div>
-          <div class="col-xs-12 col-md-4" style="margin-bottom: 20px;">
+          <div class="col-xs-12 col-md-12 col-4" style="margin-bottom: 20px;">
            <div class="container-of-card" style="margin-bottom: 40px;">
              <div class="card" style="height: 350px">
                <img src="assets/img/profiles/sujit kumar.jpg"
@@ -1214,11 +1176,11 @@ hr.sep-3::after {
                <p class="card__name"><b>Sujit Kumar</b></p>
                <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Mechanical Engineering</p></center>
                <!--social-->
-           
+
              </div>
            </div>
          </div>
-         <div class="col-xs-12 col-md-4" style="margin-bottom: 20px;">
+         <div class="col-xs-12 col-md-12 col-4" style="margin-bottom: 20px;">
            <div class="container-of-card" style="margin-bottom: 40px;">
              <div class="card" style="height: 350px">
                <img src="assets/img/profiles/Pratik.jpg"
@@ -1226,13 +1188,13 @@ hr.sep-3::after {
                <p class="card__name"><b>Pratik Padmesh</b></p>
                <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Mechanical Engineering</p></center>
                <!--social-->
-           
+
              </div>
            </div>
          </div>
         </div>
         <div class="row">
-          <div class="col-xs-12 col-md-4" style="margin-bottom: 20px;">
+          <div class="col-xs-12 col-md-12 col-4" style="margin-bottom: 20px;">
            <div class="container-of-card" style="margin-bottom: 40px;">
              <div class="card" style="height: 350px">
                <img src="assets/img/profiles/aaryan.jpg"
@@ -1240,11 +1202,11 @@ hr.sep-3::after {
                <p class="card__name"><b>Aaryan Saxena</b></p>
                <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Mechanical Engineering</p></center>
                <!--social-->
-           
+
              </div>
            </div>
           </div>
-          <div class="col-xs-12 col-md-4" style="margin-bottom: 20px;">
+          <div class="col-xs-12 col-md-12 col-4" style="margin-bottom: 20px;">
            <div class="container-of-card" style="margin-bottom: 40px;">
              <div class="card" style="height: 350px">
                <img src="assets/img/profiles/Siddhartha.jpg"
@@ -1252,11 +1214,11 @@ hr.sep-3::after {
                <p class="card__name"><b>Siddhartha Chaudhary</b></p>
                <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Production and Industrial Engineering</p></center>
                <!--social-->
-           
+
              </div>
            </div>
          </div>
-         <div class="col-xs-12 col-md-4" style="margin-bottom: 20px;">
+         <div class="col-xs-12 col-md-12 col-4" style="margin-bottom: 20px;">
            <div class="container-of-card" style="margin-bottom: 40px;">
              <div class="card" style="height: 350px">
                <img src="assets/img/profiles/Satyam Singh.jpg"
@@ -1264,7 +1226,7 @@ hr.sep-3::after {
                <p class="card__name"><b>Satyam Singh</b></p>
                <center><p class="card__name" style="margin-top: -12px">Mechanical Engineering</p></center>
                <!--social-->
-           
+
              </div>
            </div>
          </div>
@@ -1278,7 +1240,7 @@ hr.sep-3::after {
                <p class="card__name"><b>Abhishek Prasad Seth</b></p>
                <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Mechanical Engineering</p></center>
                <!--social-->
-           
+
              </div>
            </div>
           </div>
@@ -1290,33 +1252,33 @@ hr.sep-3::after {
                <p class="card__name"><b>Ashutosh Gupta</b></p>
                <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Mechanical Engineering</p></center>
                <!--social-->
-           
+
              </div>
            </div>
          </div>
-         
+
         </div>
-        
+
       </div>
     </center>
-    <hr class="sep-3" /> 
+    <hr class="sep-3" />
     <center>
       <div class="container Team-ers">
          <h2 class="team-head" style="margin-bottom: 50px;">ERS-ENERGY RECOVERY SYSTEM</h2>
          <div class="row">
-          <div class="col-xs-12 col-md-4" style="margin-bottom: 20px;">
-           <div class="container-of-card" style="margin-bottom: 40px;">
+          <div class="col-xs-12 col-md-12 col-4" style="margin-bottom: 20px;">
+           <div class="container-of-card" style="margin-bottom: 40px;padding-bottom:50px;">
              <div class="card" style="height: 350px">
                <img src="assets/img/profiles/Vinayak.jfif"
                     class="card__image">
                <p class="card__name"><b>Vinayak Kumar</b></p>
                <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Captain</p></center>
                <!--social-->
-           
+
              </div>
            </div>
           </div>
-          <div class="col-xs-12 col-md-4" style="margin-bottom: 20px;">
+          <div class="col-xs-12 col-md-12 col-4" style="margin-bottom: 20px;">
            <div class="container-of-card" style="margin-bottom: 40px;">
              <div class="card" style="height: 350px">
                <img src="assets/img/profiles/sujit kumar.jpg"
@@ -1325,11 +1287,11 @@ hr.sep-3::after {
                <center><p class="card__name" style="margin-top: -12px">Vice-Captain</p></center>
               <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Production and Industrial Engineering</p></center>
                <!--social-->
-           
+
              </div>
            </div>
          </div>
-         <div class="col-xs-12 col-md-4" style="margin-bottom: 20px;">
+         <div class="col-xs-12 col-md-12 col-4" style="margin-bottom: 20px;">
            <div class="container-of-card" style="margin-bottom: 40px;">
              <div class="card" style="height: 350px">
                <img src="assets/img/profiles/Lakshay.jpeg"
@@ -1337,12 +1299,11 @@ hr.sep-3::after {
                <p class="card__name"><b>Lakshay Jain</b></p>
                <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Mechanical Engineering</p></center>
                <!--social-->
-           
+
              </div>
            </div>
          </div>
         </div>
-
         <div class="row">
           <div class="col-xs-12 col-md-6" style="margin-bottom: 20px;">
            <div class="container-of-card" style="margin-bottom: 40px;">
@@ -1352,7 +1313,7 @@ hr.sep-3::after {
                <p class="card__name"><b>Varun Kumar</b></p>
                <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Mechanical Engineering</p></center>
                <!--social-->
-           
+
              </div>
            </div>
           </div>
@@ -1364,46 +1325,47 @@ hr.sep-3::after {
                <p class="card__name"><b>Dhruv Singh</b></p>
                <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Mechanical Engineering</p></center>
                <!--social-->
-           
+
              </div>
            </div>
          </div>
-         
+
         </div>
-        
+
       </div>
     </center>
     <hr class="sep-3" />
-
     <center>
       <div class="container Team-ABS">
          <h2 class="team-head" style="margin-bottom: 50px;">ABS-ANTILOCK BRAKING SYSTEM</h2>
          <div class="row">
-          <div class="col-xs-12 col-md-4" style="margin-bottom: 20px;">
-           <div class="container-of-card" style="margin-bottom: 40px;">
+          <div class="col-xs-12 col-md-12 col-4" style="margin-bottom: 20px;">
+           <div class="container-of-card" style="margin-bottom: 40px;padding-bottom: 50px;">
              <div class="card" style="height: 350px">
                <img src="assets/img/profiles/Ishu.jpg"
                     class="card__image">
-               <p class="card__name"><b>Ishu Kumar</b></p>
-               <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Production and Industrial Engineering</p></center>
+               <p class="card__name"><b>Shudanshu</b></p>
+               <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Captain</p></center>
+               <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Mechanical Engineering</p></center>
+
                <!--social-->
-           
+
              </div>
            </div>
           </div>
-          <div class="col-xs-12 col-md-4" style="margin-bottom: 20px;">
+          <div class="col-xs-12 col-md-12 col-4" style="margin-bottom: 20px;">
            <div class="container-of-card" style="margin-bottom: 40px;">
              <div class="card" style="height: 350px">
                <img src="assets/img/profiles/shudanshu.png"
                     class="card__image">
-               <p class="card__name"><b>Shudanshu</b></p>
-               <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Mechanical Engineering</p></center>
+               <p class="card__name"><b>Ishu Kumar</b></p>
+               <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Production and Industrial Engineering</p></center>
                <!--social-->
-           
+
              </div>
            </div>
          </div>
-         <div class="col-xs-12 col-md-4" style="margin-bottom: 20px;">
+         <div class="col-xs-12 col-md-12 col-4" style="margin-bottom: 20px;">
            <div class="container-of-card" style="margin-bottom: 40px;">
              <div class="card" style="height: 350px">
                <img src="assets/img/profiles/Neetu.jpg"
@@ -1411,14 +1373,13 @@ hr.sep-3::after {
                <p class="card__name"><b>Neetu Agarwal</b></p>
                <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Production and Industrial Engineering</p></center>
                <!--social-->
-           
+
              </div>
            </div>
          </div>
         </div>
-
       <div class="row">
-          <div class="col-xs-12 col-md-4" style="margin-bottom: 20px;">
+          <div class="col-xs-12 col-md-12 col-4" style="margin-bottom: 20px;">
            <div class="container-of-card" style="margin-bottom: 40px;">
              <div class="card" style="height: 350px">
                <img src="assets/img/profiles/ritesh.png"
@@ -1426,11 +1387,11 @@ hr.sep-3::after {
                <p class="card__name"><b>Ritesh Tirkey</b></p>
                <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Mechanical Engineering</p></center>
                <!--social-->
-           
+
              </div>
            </div>
           </div>
-          <div class="col-xs-12 col-md-4" style="margin-bottom: 20px;">
+          <div class="col-xs-12 col-md-12 col-4" style="margin-bottom: 20px;">
            <div class="container-of-card" style="margin-bottom: 40px;">
              <div class="card" style="height: 350px">
                <img src="assets/img/profiles/anshuman.jpg"
@@ -1438,11 +1399,11 @@ hr.sep-3::after {
                <p class="card__name"><b>Anshuman Mishra</b></p>
                <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Mechanical Engineering</p></center>
                <!--social-->
-           
+
              </div>
            </div>
          </div>
-         <div class="col-xs-12 col-md-4" style="margin-bottom: 20px;">
+         <div class="col-xs-12 col-md-12 col-4" style="margin-bottom: 20px;">
            <div class="container-of-card" style="margin-bottom: 40px;">
              <div class="card" style="height: 350px">
                <img src="assets/img/profiles/Nishant.jpg"
@@ -1450,12 +1411,11 @@ hr.sep-3::after {
                <p class="card__name"><b>Nishant Sati</b></p>
                <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Mechanical Engineering</p></center>
                <!--social-->
-           
+
              </div>
            </div>
          </div>
-        </div> 
-
+        </div>
         <div class="row">
           <div class="col-xs-12 col-md-6" style="margin-bottom: 20px;">
            <div class="container-of-card" style="margin-bottom: 40px;">
@@ -1465,7 +1425,7 @@ hr.sep-3::after {
                <p class="card__name"><b>Gunjan Kumar</b></p>
                <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Mechanical Engineering</p></center>
                <!--social-->
-           
+
              </div>
            </div>
           </div>
@@ -1477,25 +1437,22 @@ hr.sep-3::after {
                <p class="card__name"><b>Ashwini Singh</b></p>
                <center><p class="card__name" style="margin-top: -12px;font-size: 18px">Mechanical Engineering</p></center>
                <!--social-->
-           
+
              </div>
            </div>
          </div>
-         
+
         </div>
-        
+
       </div>
     </center>
     </section>
-
   </main><!-- End #main -->
-
   <!-- ======= Footer ======= -->
   <footer id="footer">
     <div class="footer-top">
       <div class="container">
         <div class="row">
-
           <div class="col-lg-3 col-md-6">
             <div class="footer-info">
               <h3>SAE MNNIT</h3>
@@ -1511,7 +1468,6 @@ hr.sep-3::after {
               </div>
             </div>
           </div>
-
           <div class="col-lg-2 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
@@ -1525,18 +1481,13 @@ hr.sep-3::after {
           <div class="col-lg-7 ">
             <img src="assets/img/sae_logo (2).png" class="img-logo" alt="logo">
           </div>
-          
 
-          
 
         </div>
       </div>
     </div>
-
   </footer><!-- End Footer -->
-
   <a href="#" class="back-to-top"><i class="ri-arrow-up-line"></i></a>
-
   <!-- Vendor JS Files -->
   <script src="assets/vendor/jquery/jquery.min.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -1548,10 +1499,8 @@ hr.sep-3::after {
   <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
   <script src="assets/vendor/counterup/counterup.min.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
-
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 		</div>
 </body>
-
 </html>
