@@ -1,3 +1,5 @@
+/* 
+
 var loader;
 
 function loadNow(opacity) {
@@ -20,3 +22,13 @@ document.addEventListener("DOMContentLoaded", function() {
     loader = document.getElementById('loader');
     loadNow(1);
 });
+
+
+
+---------------------------------------------------*/
+
+window.onload = function() 
+    {
+        //display loader on page load 
+        $('#loader').fadeOut();
+    }
