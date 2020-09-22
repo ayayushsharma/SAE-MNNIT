@@ -602,7 +602,7 @@ section {
 }
 .counter>div{
   min-width:200px;
-  border: 1px solid #ebebeb;
+  border: 1px solid #333333;
   width:23.5%;
   background-color:#fff;
   height:200px;
@@ -621,7 +621,7 @@ section {
 .counter-text{
   font-size:50px;
   margin-top:10%;
-  color:rgba(0,0,0,.5);
+  color:rgba(0,0,0,.7);
  
 }
 .counter>div>p>a{
