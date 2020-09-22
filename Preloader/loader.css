@@ -26,8 +26,13 @@ html, body {
 			
         }
         #loader img{
-            position: relative;
+             /*position: relative;
             left: 40%;
-            top: 40%;
+            top: 40%;*/
+             position: absolute;
+             left: 50%;
+             top: 50%; 
+             margin-left: -150px;
+             margin-top: -150px;
 			
         }
