@@ -1051,3 +1051,10 @@ section {
   font-size: 13px;
   color: #fff;
 }
+
+ .img-logo {
+  max-width: 65%;
+  margin-left: 285px;
+}
+
+
