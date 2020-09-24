@@ -601,7 +601,7 @@ section {
    margin-bottom:23px;
 }
 .counter>div{
-  min-width:200px;
+  min-width:300px;
   border: 1px solid #c5c5c5;
   width:23.5%;
   background-color:#fff;
