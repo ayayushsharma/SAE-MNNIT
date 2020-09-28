@@ -561,32 +561,26 @@ section {
     position: relative;
     margin-bottom: 15px;
 }
- #projects-title::before,#sponser-title::before{
-  position: absolute;
-    content: '';
-    left: 15px;
-    bottom: 8px;
-    width: 48px;
-    height: 1px;
-    background-color: #E91E63;
+ #projects-title::before{
+  content: "";
+  width: 50px;
+  height: 2px;
+  display: inline-block;
+  background: #e27765;
+  opacity:0.8;
+  margin-bottom:10px;
+  margin-right:10px;
 }
-#projects-title::before{
-  left: 50%;
-    margin-left: -45px;
-}
-#projects-title::after{
-  margin-left: -30px;
 
-    left: 50%;
-}
 #projects-title::after{
- position: absolute;
-    content: '';
-    left: 0px;
-    bottom: 2px;
-    width: 48px;
-    height: 1px;
-    background-color: #E91E63;
+  content: "";
+  width: 50px;
+  height: 2px;
+  display: inline-block;
+  background: #e27765;
+  opacity:0.8;
+  margin-bottom:10px;
+  margin-left:10px;
 }
 
 .counter{
@@ -611,8 +605,8 @@ background-color:#fff;
   z-index:-0.5;
 }
 .counter>div:hover{
-animation:pulse; /* referring directly to the animation's @keyframe declaration */
-  animation-duration: 2s; /* don't forget to set a duration! */
+  animation:pulse; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 1s; /* don't forget to set a duration! */
 }
 .counter-text{
   font-size:70px;
