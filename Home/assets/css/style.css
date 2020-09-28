@@ -549,6 +549,7 @@ section {
   background-image:url('../img/proj_back.jpg');
   background-repeat:repeat;
 }
+
 #projects-title,#sponser-title{
 
     font-size: 36px;
@@ -584,7 +585,7 @@ section {
 }
 
 .counter{
-  
+
   display:flex;
   flex-direction:row;
   flex-wrap:nowrap;
@@ -594,7 +595,7 @@ section {
 }
 .counter>div{
   width:250px;
-background-color:#fff;
+  background-color:#fff;
   height:250px;
   border-radius:5px;
   box-shadow:1px 2px 2px  grey;
@@ -603,6 +604,7 @@ background-color:#fff;
   background-repeat:no-repeat;
   background-size:cover;
   z-index:-0.5;
+  margin-top:15px!important;
 }
 .counter>div:hover{
   animation:pulse; /* referring directly to the animation's @keyframe declaration */
