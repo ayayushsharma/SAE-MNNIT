@@ -542,8 +542,50 @@ section {
 /*--------------------------------------------------------------
 #counter up
 --------------------------------------------------------------*/
+/*--------------------------------------------------------------
+#counter up &projects
+--------------------------------------------------------------*/
+#projects{
+  background-image:url('../img/proj_back.jpg');
+  background-repeat:repeat;
+}
+
+#projects-title,#sponser-title{
+
+    font-size: 36px;
+    color: #212121;
+    line-height: 52px;
+    padding-bottom: 20px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 15px;
+}
+ #projects-title::before{
+  content: "";
+  width: 50px;
+  height: 2px;
+  display: inline-block;
+  background: #e27765;
+  opacity:0.8;
+  margin-bottom:10px;
+  margin-right:10px;
+}
+
+#projects-title::after{
+  content: "";
+  width: 50px;
+  height: 2px;
+  display: inline-block;
+  background: #e27765;
+  opacity:0.8;
+  margin-bottom:10px;
+  margin-left:10px;
+}
+
 .counter{
-  
+
   display:flex;
   flex-direction:row;
   flex-wrap:nowrap;
@@ -552,21 +594,27 @@ section {
    margin-bottom:23px;
 }
 .counter>div{
-  width:400px;
-background-color:#fff;
-  height:400px;
+  width:250px;
+  background-color:#fff;
+  height:250px;
   border-radius:5px;
   box-shadow:1px 2px 2px  grey;
   margin:10px;
-  
+  background-image:url('../img/cout-back.jpg');
+  background-repeat:no-repeat;
+  background-size:cover;
+  z-index:-0.5;
+  margin-top:15px!important;
 }
 .counter>div:hover{
-animation:pulse; /* referring directly to the animation's @keyframe declaration */
-  animation-duration: 2s; /* don't forget to set a duration! */
+  animation:pulse; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 1s; /* don't forget to set a duration! */
 }
 .counter-text{
   font-size:70px;
   margin-top:30%;
+  color:white;
+ 
 }
 .counter>div>p>a{
  position:relative;top:75px;
@@ -574,6 +622,13 @@ animation:pulse; /* referring directly to the animation's @keyframe declaration 
  color:#652914;
  z-index:9;
 }
+
+
+
+
+
+
+
 .counter>div>p>a:hover{
   transform:scale(0.75);
 }
@@ -586,6 +641,10 @@ animation:pulse; /* referring directly to the animation's @keyframe declaration 
     margin:auto;
   }
 }
+
+
+
+
 
 
 
@@ -1172,7 +1231,6 @@ margin:4px 10px;
   max-width: 65%;
   margin-left: 285px;
 }
-
 
 
 

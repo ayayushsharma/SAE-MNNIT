@@ -1,9 +1,3 @@
-/**
-* Template Name: Gp - v2.1.0
-* Template URL: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
 /*--------------------------------------------------------------
 # General
@@ -942,7 +936,6 @@ section {
 --------------------------------------------------------------*/
 #footer {
   background: black;
-  padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
 }
@@ -950,7 +943,7 @@ section {
 #footer .footer-top {
   background: #151515;
   border-bottom: 1px solid #222222;
-  padding: 60px 0 30px 0;
+  padding: 30px 0 10px 0;
 }
 
 #footer .footer-top .footer-info {
@@ -994,7 +987,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #ff6b51;
+  background:  #ff6b51;
   color: #151515;
   text-decoration: none;
 }
@@ -1025,7 +1018,7 @@ section {
 }
 
 #footer .footer-top .footer-links ul li {
-  padding: 10px 0;
+  padding: 5px 0;
   display: flex;
   align-items: center;
 }
@@ -1042,55 +1035,9 @@ section {
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #ff6b51;
-}
-
-#footer .footer-top .footer-newsletter form {
-  margin-top: 30px;
-  background: #fff;
-  padding: 6px 10px;
-  position: relative;
-  border-radius: 4px;
-}
-
-#footer .footer-top .footer-newsletter form input[type="email"] {
-  border: 0;
-  padding: 4px;
-  width: calc(100% - 110px);
-}
-
-#footer .footer-top .footer-newsletter form input[type="submit"] {
-  position: absolute;
-  top: 0;
-  right: -2px;
-  bottom: 0;
-  border: 0;
-  background: none;
-  font-size: 16px;
-  padding: 0 20px;
-  background: #ff6b51;
-  color: #151515;
-  transition: 0.3s;
-  border-radius: 0 4px 4px 0;
-}
-
-#footer .footer-top .footer-newsletter form input[type="submit"]:hover {
-  background: #ffcd6b;
-}
-
-#footer .copyright {
-  text-align: center;
-  padding-top: 30px;
-}
-
-#footer .credits {
-  padding-top: 10px;
-  text-align: center;
-  font-size: 13px;
-  color: #fff;
+  color: hsl(14, 60%, 52%);
 }
 
  .img-logo {
-  max-width: 65%;
-  margin-left: 285px;
+  max-width: 80%;
 }
