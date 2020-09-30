@@ -1272,18 +1272,28 @@ margin:4px 10px;
 --------------------------------------------------------------*/
 
 #bl{
-	background-color:rgba(0,0,0,.1)!important;
+	background-color:rgba(0,0,0,0)!important;
 }
 
-.achievements{padding-bottom:80px!important}
+.achievements{padding-bottom:2px;}
 
 .achievements .icon-box {
+  margin-left:10%;
+  margin-right:10%;
+  border-radius: 20px 20px 20px 20px;
   text-align: center;
-  border-bottom: 2px solid rgba(0,0,0,.1);
+  border: 1px solid rgba(0,0,0,.05);
   transition: all ease-in-out 0.3s;
   background: #fff;
   
 }
+
+  @media screen and (max-width: 768px) {
+	  .achievements .icon-box {
+  margin-left:0%;
+  margin-right:0%;
+	  }
+  }
 
 .achievements .icon-box #trophy {
   margin: 0 auto;
@@ -1303,6 +1313,7 @@ margin:4px 10px;
 }
 
 .achievements .icon-box h4 {
+  border-radius: 20px 20px 0px 0px;
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 24px;
