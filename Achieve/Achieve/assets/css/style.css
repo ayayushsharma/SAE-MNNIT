@@ -1272,7 +1272,7 @@ margin:4px 10px;
 --------------------------------------------------------------*/
 
 #bl{
-	background-color:rgba(0,0,0,.05)!important;
+	background-color:rgba(0,0,0,.1)!important;
 }
 
 .achievements{padding-bottom:0px!important}
@@ -1306,7 +1306,8 @@ margin:4px 10px;
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 24px;
-  background-color:rgba(0,0,0,.8);
+  background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.75));
+  box-shadow:0 0 25px 0 rgba(0, 0, 0, 0.1);
   padding:20px;
 }
 
