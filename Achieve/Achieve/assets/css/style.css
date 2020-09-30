@@ -1270,12 +1270,19 @@ margin:4px 10px;
 /*--------------------------------------------------------------
 # Achievements
 --------------------------------------------------------------*/
+
+#bl{
+	background-color:rgba(0,0,0,.05)!important;
+}
+
+.achievements{padding-bottom:0px!important}
+
 .achievements .icon-box {
   text-align: center;
-  border: 1px solid #ebebeb;
-  padding: 40px 20px;
+  border-bottom: 2px solid rgba(0,0,0,.1);
   transition: all ease-in-out 0.3s;
   background: #fff;
+  
 }
 
 .achievements .icon-box #trophy {
@@ -1284,7 +1291,6 @@ margin:4px 10px;
   height: 64px;
   border-radius: 4px;
   display: flex;
-  align-items: left;
   justify-content: left;
   margin-bottom: 20px;
   transition: 0.3s;
@@ -1300,21 +1306,31 @@ margin:4px 10px;
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 24px;
+  background-color:rgba(0,0,0,.8);
+  padding:20px;
+}
+
+.achievements .icon-box h3 {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 24px;
+  padding:20px;
 }
 
 .achievements .icon-box h4 a {
-  color: #151515;
+  color:rgba(255,255,255,1); ;
   transition: ease-in-out 0.3s;
 }
 
 .achievements .icon-box h4 a:hover {
   color: #ffc451;
+  
 }
 
 .achievements .icon-box p {
   line-height: 24px;
   font-size: 20px;
-  margin-bottom: 0;
+  margin-bottom: 15px;
 }
 
 .achievements .icon-box:hover {
@@ -1328,7 +1344,6 @@ margin:4px 10px;
 --------------------------------------------------------------*/
 
 .page-section-title h2 {
-	padding-top:95px;
   font-size: 40px;
   font-weight: 500;
   padding: 0;
@@ -1364,7 +1379,7 @@ margin:4px 10px;
 @media screen and (max-width: 768px) {
        .page-section-title h2::before { display:none;}
 	   .page-section-title h2::after { display:none;}
-	   .page-section-title h2 { padding-top:160px;}
+	   .page-section-title h2 { padding-top:103px!important;}
 }
 
 .page-section-title p {

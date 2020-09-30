@@ -1,0 +1,88 @@
+<!--No challenge too great
+
+Roaring success
+
+Success breeds success
+
+Sweet taste of success
+
+Ayush Settings
+background: rgb(0,212,255);
+background: linear-gradient(90deg, rgba(0,212,255,0.9472163865546218) 0%, rgba(37,63,255,1) 13%, rgba(234,27,255,1) 27%, rgba(255,45,102,1) 43%, rgba(255,218,0,0.969625350140056) 58%, rgba(254,255,0,1) 72%, rgba(0,255,72,0.9136029411764706) 87%, rgba(0,212,255,1) 100%);
+
+Anuj1
+background: rgb(112,226,249);
+background: linear-gradient(deg, rgba(112,226,249,0.9444152661064426) 0%, rgba(122,92,241,0.9724264705882353) 14%, rgba(255,45,102,1) 29%, rgba(255,218,0,0.969625350140056) 46%, rgba(254,255,0,1) 64%, rgba(0,255,72,0.9136029411764706) 82%, rgba(0,212,255,1) 100%);
+
+
+
+
+
+
+
+
+
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<style>
+
+.rainbow {
+  color: #000;
+  font-family: 'montserrat';
+  font-size: 3vw;
+  letter-spacing: 1vw;
+  text-align: center;
+  background: -webkit-linear-gradient( left, rgba(0,212,255,0.9472163865546218) 0%, rgba(37,63,255,1) 13%, rgba(234,27,255,1) 27%, rgba(255,45,102,1) 43%, rgba(255,218,0,0.969625350140056) 58%, rgba(254,255,0,1) 72%, rgba(0,255,72,0.9136029411764706) 87%, rgba(0,212,255,1) 100%) repeat;
+  -webkit-background-clip: text;
+  -ms-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -ms-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  text-fill-color: transparent;
+  -webkit-animation-name: masked-animation;
+  -webkit-animation-duration: 125s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes masked-animation {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -8000px -3000px;
+  }
+}</style>
+
+</head>
+
+<body>
+
+<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+<div class="container">
+  <div class="rainbow">
+    <p>Bad design is smoke, while good design is a mirror.</p>
+  </div>
+</div>
+
+
+  <script>
+$('.txt').html(function(i, html) {
+  var chars = $.trim(html).split("");
+
+  return '<span>' + chars.join('</span><span>') + '</span>';
+});
+</script>
+  
+
+</body>
+
+</html>
