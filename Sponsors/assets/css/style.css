@@ -1360,6 +1360,10 @@ margin:4px 10px;
   margin: 10px 10px;
 }
 
+@media screen and (max-width: 768px) {
+       .page-section-title h2::before { display:none;}
+	   .page-section-title h2::after { display:none;}
+}
 .page-section-title p {
   margin: 0;
   margin: 0;
