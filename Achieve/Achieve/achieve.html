@@ -61,6 +61,19 @@
 sup {
 display:block!important;
 }
+/*----------------------------------------------------------------------------*/
+
+#car img {
+  position: relative;
+  animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  from {left:-510px;}
+  to {left: calc( 100% - 0px);}
+}
+
+
 </style>
 
 
@@ -181,7 +194,11 @@ display:block!important;
         </div>
 
       </div>
-    </section><!-- End ACHIEVEMENTSSection -->
+    </section><!-- End ACHIEVEMENTS Section -->
+
+<section id="car" style="width:100%;padding:0px!important;">
+<img src="../car 3.gif" style="height:200px " >
+</section>
 
     <!-- ======= Cta Section ======= -->
     <section id="cta" class="cta">
