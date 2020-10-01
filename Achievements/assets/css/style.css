@@ -116,7 +116,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-scrolled, #header.header-inner-pages {
-  background: rgba(0, 0, 0, 0.8);
+  background: #333333;
 }
 
 #header .logo {
@@ -832,176 +832,7 @@ margin:4px 10px;
 }
 
 
-.cta .cta-btn {
-  font-family: "Raleway", sans-serif;
-  font-weight: 600;
-  font-size: 16px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 8px 28px;
-  border-radius: 4px;
-  transition: 0.5s;
-  margin-top: 10px;
-  border: 2px solid #fff;
-  color: #fff;
-}
 
-.cta .cta-btn:hover {
-  background:  #ff6b51;
-  border-color: #ff6b51;
-  color: #151515;
-}
-
-
-/*--------------------------------------------------------------
-# Contact
---------------------------------------------------------------*/
-.contact .info {
-  width: 100%;
-  background: #fff;
-}
-
-.contact .info i {
-  font-size: 20px;
-  background:  #ff6b51;
-  color: #151515;
-  float: left;
-  width: 44px;
-  height: 44px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 4px;
-  transition: all 0.3s ease-in-out;
-}
-
-.contact .info h4 {
-  padding: 0 0 0 60px;
-  font-size: 22px;
-  font-weight: 600;
-  margin-bottom: 5px;
-  color: #151515;
-}
-
-.contact .info p {
-  padding: 0 0 0 60px;
-  margin-bottom: 0;
-  font-size: 14px;
-  color: #484848;
-}
-
-.contact .info .email, .contact .info .phone {
-  margin-top: 40px;
-}
-
-.contact .php-email-form {
-  width: 100%;
-  background: #fff;
-}
-
-.contact .php-email-form .form-group {
-  padding-bottom: 8px;
-}
-
-.contact .php-email-form .validate {
-  display: none;
-  color: red;
-  margin: 0 0 15px 0;
-  font-weight: 400;
-  font-size: 13px;
-}
-
-.contact .php-email-form .error-message {
-  display: none;
-  color: #fff;
-  background: #ed3c0d;
-  text-align: left;
-  padding: 15px;
-  font-weight: 600;
-}
-
-.contact .php-email-form .error-message br + br {
-  margin-top: 25px;
-}
-
-.contact .php-email-form .sent-message {
-  display: none;
-  color: #fff;
-  background: #18d26e;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-}
-
-.contact .php-email-form .loading {
-  display: none;
-  background: #fff;
-  text-align: center;
-  padding: 15px;
-}
-
-.contact .php-email-form .loading:before {
-  content: "";
-  display: inline-block;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
-  border-top-color: #eee;
-  -webkit-animation: animate-loading 1s linear infinite;
-  animation: animate-loading 1s linear infinite;
-}
-
-.contact .php-email-form input, .contact .php-email-form textarea {
-  border-radius: 0;
-  box-shadow: none;
-  font-size: 14px;
-  border-radius: 4px;
-}
-
-.contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
-  border-color:  #ff6b51;
-}
-
-.contact .php-email-form input {
-  height: 44px;
-}
-
-.contact .php-email-form textarea {
-  padding: 10px 12px;
-}
-
-.contact .php-email-form button[type="submit"] {
-  background:  #ff6b51;
-  border: 0;
-  padding: 10px 24px;
-  color: #151515;
-  transition: 0.4s;
-  border-radius: 4px;
-}
-
-.contact .php-email-form button[type="submit"]:hover {
-  background:  #ff6b51;
-}
-
-@-webkit-keyframes animate-loading {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes animate-loading {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
 
 /*--------------------------------------------------------------
 # Breadcrumbs
@@ -1169,114 +1000,43 @@ margin:4px 10px;
 }
 
  .img-logo {
-  max-width: 65%;
-  margin-left: 285px;
+  max-width: 80%;
 }
 
 
 
-
-
-/*--------------------------------------------------------------
-# Sponsors
---------------------------------------------------------------*/
-.sponsors .icon-box {
-  text-align: center;
-  border: 1px solid #ebebeb;
-  padding: 80px 20px;
-  transition: all ease-in-out 0.3s;
-  background: #fff;
-}
-
-.sponsors .icon-box .icon {
-  margin: 0 auto;
-  height: 110px;
-  border-radius: 4px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 20px;
-  transition: ease-in-out 0.3s;
-}
-
-.sponsors .icon-box .icon1 {
-  margin: 0 auto;
-  height: 150px;
-  border-radius: 4px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 20px;
-  transition: ease-in-out 0.3s;
-}
-
-.sponsors .icon-box .icon2 {
-  margin: 0 auto;
-  height: 75px;
-  border-radius: 4px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 20px;
-  transition: ease-in-out 0.3s;
-}
-
-.sponsors .icon-box .icon3 {
-  margin: 0 auto;
-  width: 240px;
-  border-radius: 4px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 20px;
-  transition: ease-in-out 0.3s;
-}
-
-.sponsors .icon-box h4 {
-  font-weight: 700;
-  margin-bottom: 15px;
-  font-size: 24px;
-}
-
-.sponsors .icon-box h4 a {
-  color: #151515;
-  transition: ease-in-out 0.3s;
-}
-
-.sponsors .icon-box h4 a:hover {
-  color: #ffc451;
-}
-
-.sponsors .icon-box p {
-  line-height: 24px;
-  font-size: 14px;
-  margin-bottom: 0;
-}
-
-.sponsors .icon-box p:hover {
-  line-height: 24px;
-  font-size: 20px;
-  transition: ease-in-out 0.25s;
-  margin-bottom: 0;
-}
-.sponsors .icon-box:hover {
-  border-color: #fff;
-  box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
-  transform: translateY(-10px);
-  border-color: rgba(255,196,81,0.35) ;
-  
-}
 
 /*--------------------------------------------------------------
 # Achievements
 --------------------------------------------------------------*/
+
+#bl{
+	background-color:rgba(0,0,0,0)!important;
+}
+
+.achievements{padding-bottom:0px;}
+
 .achievements .icon-box {
+  margin-left:10%;
+  margin-right:10%;
+  border-radius: 30px 30px 30px 30px;
   text-align: center;
-  border: 1px solid #ebebeb;
-  padding: 40px 20px;
+  border-bottom: 2px solid rgba(0,0,0,.1);
+  border-right: 1px solid rgba(0,0,0,.05);
+  border-left: 1px solid rgba(0,0,0,.05);
   transition: all ease-in-out 0.3s;
   background: #fff;
+  
 }
+
+  @media screen and (max-width: 768px) {
+.achievements .icon-box {
+  border-right:0px;
+  border-left:0px;
+  margin-left:0%;
+  margin-right:0%;
+	  }
+  }
 
 .achievements .icon-box #trophy {
   margin: 0 auto;
@@ -1284,7 +1044,6 @@ margin:4px 10px;
   height: 64px;
   border-radius: 4px;
   display: flex;
-  align-items: left;
   justify-content: left;
   margin-bottom: 20px;
   transition: 0.3s;
@@ -1297,46 +1056,58 @@ margin:4px 10px;
 }
 
 .achievements .icon-box h4 {
+  border-radius: 30px 30px 0px 0px;
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 24px;
+  background: #333333;
+  padding:20px;
+}
+
+.achievements .icon-box h3 {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 24px;
+  padding:20px;
 }
 
 .achievements .icon-box h4 a {
-  color: #151515;
+  color:rgba(255,255,255,1); ;
   transition: ease-in-out 0.3s;
 }
 
 .achievements .icon-box h4 a:hover {
   color: #ffc451;
+  
 }
 
 .achievements .icon-box p {
   line-height: 24px;
   font-size: 20px;
-  margin-bottom: 0;
+  margin-bottom: 15px;
 }
 
 .achievements .icon-box:hover {
   border-color: #fff;
-  box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.1);
   transform: translateY(-10px);
 }
+
 
 /*--------------------------------------------------------------
 # Selection titles for pages other than homepage
 --------------------------------------------------------------*/
 
 .page-section-title h2 {
-  font-size: 28px;
+  font-size: 40px;
   font-weight: 500;
   padding: 0;
   text-align: center; 
   line-height: 1px;
-  margin: 0 0 5px 0;
+  margin: 10px 20px;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #aaaaaa;
+  color: rgba(255,255,255,1);
   font-family: "Poppins", sans-serif;
 }
 
@@ -1346,7 +1117,7 @@ margin:4px 10px;
   height: 1px;
   display: inline-block;
   background: #e27765;
-  opacity:0.5;
+  opacity:0.8;
   margin: 10px 10px;
 }
 
@@ -1356,8 +1127,14 @@ margin:4px 10px;
   height: 1px;
   display: inline-block;
   background: #e27765;
-  opacity:0.5;
+  opacity:0.8;
   margin: 10px 10px;
+}
+
+@media screen and (max-width: 768px) {
+       .page-section-title h2::before { display:none;}
+	   .page-section-title h2::after { display:none;}
+	   .page-section-title h2 { padding-top:103px!important;}
 }
 
 .page-section-title p {

@@ -28,7 +28,61 @@
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">W
+<style>
+
+.rainbow {
+  color: #000;
+  background: rgba(255, 253, 160, 1);
+  background: -webkit-linear-gradient( left, rgba(255,255,255,1) 0%,  #00ffff 0%, #97fba0 25%, #97b1fb 50%, #00ffff 100%) repeat;
+  -webkit-background-clip: text;
+  -ms-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -ms-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  text-fill-color: transparent;
+  -webkit-animation-name: masked-animation;
+  -webkit-animation-duration:100s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes masked-animation {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -8000px -3000px;
+  }
+}
+
+sup {
+display:block!important;
+}
+/*----------------------------------------------------------------------------*/
+
+#car img {
+  position: relative;
+  animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  from {left:-510px;}
+  to {left: calc( 100% - 0px);}
+}
+
+@media screen and (max-width: 768px) {
+#car img {
+position: relative;
+animation: mymove 3.75s infinite;
+}
+}
+
+
+</style>
+
 
 </head>
 
@@ -59,84 +113,99 @@
 
     </div>
   </header><!-- End Header -->
-<br><br>
+
     <!-- ======= Achievements Section ======= -->
     <section id="achievements" class="achievements">
       <div data-aos="fade-up">
 
-        <div class="page-section-title">
-          <h2>Achievements</h2>
-		  <p><br>The aegis of SAE INDIA COLLEGIATE CLUB OF MNNIT holds a glorified history with numerous laurels and jewels sewed on our fabric<br><br><br></p>
+        <div class="page-section-title" style="background: #333333 url('assets/img/back.gif') no-repeat center; height:210px;">
+          <h2 style="position:relative;padding-top:95px;">Achievements</h2>
+		</div>
+		
+		<div class="page-section-title" >
+          <p style="color:rgba(10,10,10,0.8);"><br>The aegis of SAE INDIA COLLEGIATE CLUB OF MNNIT holds a glorified history with numerous laurels and jewels sewed on our fabric<br><br></p>
         </div>
 
-        <div class="column">
-          <div data-aos="zoom-in" data-aos-delay="100">
+        <div class="column" id="bl">
+          <div data-aos="zoom-in-up" data-aos-delay="100">
             <div class="icon-box">
-              <h4><a>Overall 3<sup>rd</sup> Position</a></h4>
+              <h4><a><span class="rainbow">Overall<br>3rd Position</span></a></h4>
               <p><img src="assets/img/blue_trophy.png" id="trophy" />Auto India Design Challenge (AIDC) by Spur Motorsports<br></p>
             </div>
           </div>
 
-          <div data-aos="zoom-in" data-aos-delay="100">
+          <div data-aos="zoom-in-up" data-aos-delay="100">
             <div class="icon-box">
-              <h4><a>Best Innovation Award</a></h4>
+              <h4><a><span class="rainbow">Best<br>Innovation Award</span></a></h4>
               <p><img src="assets/img/blue_trophy.png" id="trophy" />EFFICYCLE 2017<br></p>
             </div>
           </div>
 
-          <div data-aos="zoom-in" data-aos-delay="100">
+          <div data-aos="zoom-in-up" data-aos-delay="100">
             <div class="icon-box">
-              <h4><a>Best Marketing Award</a></h4>
+              <h4><a><span class="rainbow">Best<br>Marketing Award</span></a></h4>
               <p><img src="assets/img/blue_trophy.png" id="trophy" />EFFICYCLE 2018<br></p>
             </div>
           </div>
 
-          <div data-aos="zoom-in" data-aos-delay="100">
+          <div data-aos="zoom-in-up" data-aos-delay="100">
             <div class="icon-box">
-              <h4><a>17<sup>th</sup> Position</a></h4>
+              <h4><a><span class="rainbow">Ranked<br>17th</span></a></h4>
               <p><img src="assets/img/blue_trophy.png" id="trophy" /> EFFICYCLE 2016 out of 105 participating teams<br></p>
             </div>
           </div>
 
-          <div data-aos="zoom-in" data-aos-delay="100">
+          <div data-aos="zoom-in-up" data-aos-delay="100">
             <div class="icon-box">
-              <h4><a>26<sup>th</sup> Position</a></h4>
+              <h4><a><span class="rainbow">Attained<br>26th Position</span></a></h4>
               <p><img src="assets/img/blue_trophy.png" id="trophy" />SUPRA SAEINDIA 2017<br></p>
             </div>
           </div>
 
-          <div data-aos="zoom-in" data-aos-delay="100">
+          <div data-aos="zoom-in-up" data-aos-delay="100">
             <div class="icon-box">
-              <h4><a>54<sup>th</sup> Position</a></h4>
+              <h4><a><span class="rainbow">Stood<br>54th</span></a></h4>
               <p><img src="assets/img/blue_trophy.png" id="trophy" />SUPRA SAEINDIA 2014<br></p>
             </div>
           </div>
 		  
-		   <div data-aos="zoom-in" data-aos-delay="100">
+		   <div data-aos="zoom-in-up" data-aos-delay="100">
             <div class="icon-box">
-              <h4><a>Cleared Virtual Round</a></h4>
-              <p>BAJA SAEINDIA 2015<br></p>
+              <h4><a><span class="rainbow">Cleared<br>Virtual Round</span></a></h4>
+              <p style="margin:30px 0px;">BAJA SAEINDIA 2015<br></p>
             </div>
           </div>
 		  
-		   <div data-aos="zoom-in" data-aos-delay="100">
+		   <div data-aos="zoom-in-up" data-aos-delay="100">
             <div class="icon-box">
-              <h4><a>Cleared Virtual Round</a></h4>
-              <p>E-BAJA SAEINDIA 2018<br></p>
+              <h4><a><span class="rainbow">Cleared<br>Virtual Round</span></a></h4>
+              <p style="margin:30px 0px;">E-BAJA SAEINDIA 2018<br></p>
             </div>
           </div>
 		  
-		   <div data-aos="zoom-in" data-aos-delay="100">
+		   <div data-aos="zoom-in-up" data-aos-delay="100">
             <div class="icon-box">
-              <h4><a>Participated</a></h4>
-              <p>SUPRA SAEINDIA 2015<br></p>
+              <h4><a><span class="rainbow">Participated</a></h4>
+              <p style="margin:30px 0px;">SUPRA SAEINDIA 2015<br></p>
             </div>
           </div>
+		  
+		  <!--
+		  <div data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box" style="border:0px;background-color:#333333;padding:0px;" >
+            <img src="../win.gif" style="height:210px; " >
+            </div>
+          </div>
+		  -->
 
         </div>
 
       </div>
-    </section><!-- End ACHIEVEMENTSSection -->
+    </section><!-- End ACHIEVEMENTS Section -->
+
+<section id="car" style="width:100%;padding:0px!important;">
+<img src="assets/img/car 3.gif" style="height:200px " >
+</section>
 
     <!-- ======= Cta Section ======= -->
     <section id="cta" class="cta">
@@ -213,6 +282,8 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
+</script>
+  
 </div>
 </body>
 
