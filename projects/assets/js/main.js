@@ -3,10 +3,7 @@
 * Template URL: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
-*/$(function() {
-    var headHeight = $('header').outerHeight();
-    $('.projects').css({'margin-top': headHeight });
-});
+*/
 $(function() {
     var headHeight = $('header').outerHeight();
 
