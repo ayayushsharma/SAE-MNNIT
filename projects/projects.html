@@ -75,6 +75,10 @@ background-attachment: fixed;
     }
   </style>
   <script>
+	  $(function() {
+    var headHeight = $('header').outerHeight();
+    $('.projects').css({'margin-top': headHeight });
+});
     function my_func(my_id,button,hide_button)
     {
       var id=my_id;
