@@ -4,11 +4,7 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
-$(function() {
-    var headHeight = $('header').outerHeight();
 
-    $('.projects').css({'margin-top': headHeight });
-});
 !(function($) {
   "use strict";
 
