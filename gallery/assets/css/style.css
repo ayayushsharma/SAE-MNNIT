@@ -408,13 +408,12 @@ h1, h2, h3, h4, h5, h6 {
   background: -webkit-linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(9,0,176,1) 68%, rgba(95,87,255,1) 100%);
   background: linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(9,0,176,1) 68%, rgba(95,87,255,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#5f57ff",GradientType=1);
- 
   position: relative;
 }
 
 #hero:before {
   content: "";
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.3);
   position: absolute;
   bottom: 0;
   top: 0;

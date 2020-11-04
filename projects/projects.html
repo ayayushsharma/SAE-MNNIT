@@ -37,35 +37,42 @@
   />
 
   <style>
-    .card-title
-    {
+    .btn{
+      color:white;
+      background-color: rgba(0,0,0,0.1);
+      border:1px solid rgba(1, 56, 240, .5) ;
+
+    }
+
+    .card-title{
       color:white;
     }
-    .card-text
-    {
+
+    .card-text{
       color:white;
     }
-    .card_code
-    {
+
+
+    .card_code{
     margin-top:40px;
     margin-bottom: 40px;
     background-color:white;
     }
-    .card_code:hover
-    {
+
+    .card_code:hover{
       position:relative;
-      bottom:10px;
+      transform: translateY(-15px);
       background-color:#ffc451;
       box-shadow: 20px 20px 50px rgba(111,104,255,0.5);
-	  transition: 0.3s;
+	    transition: 0.1s ease-in-out;
     }
-    .heading
-    {
+
+    .heading{
       color:white;
       font-weight:lighter;
     }
-    .image
-    {
+
+    .image{
 
       background: rgb(0,0,60);
       background: -moz-linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(9,0,176,1) 58%, rgba(111,104,255,1) 100%);
@@ -73,16 +80,16 @@
       background: linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(9,0,176,1) 58%, rgba(111,104,255,1) 100%);
       filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00003c",endColorstr="#6f68ff",GradientType=1);
 
-  /*
-  background-image: url('Project-images/wallpaperflare.com_wallpaper.jpg');
-  background-attachment: fixed;
-  background-position: center;
-  */
-  height: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-bottom:-132px;
-    }
+      /*
+      background-image: url('Project-images/wallpaperflare.com_wallpaper.jpg');
+      background-attachment: fixed;
+      background-position: center;
+      */
+      height: 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-bottom:-132px;
+     }
   </style>
   <script>
 	  $(function() {
@@ -155,7 +162,8 @@
   <section class="projects">
 <div class="image">
 <div class="container">
-  <h1 class="text-center heading"><hr style="display:inline-block;width:10%; margin-right:20px; margin-bottom:20px;border: 1px solid red;color:red;">Projects<hr style="display:inline-block;width:10%; margin-left:20px; margin-bottom:20px;border: 1px solid red;color:red;"></h1>
+  <br>
+  <h1 class="text-center heading"><hr style="display:inline-block;width:10%; margin-right:20px; margin-bottom:13px;border: 1px solid red;color:red;">Projects<hr style="display:inline-block;width:10%; margin-left:20px; margin-bottom:13px;border: 1px solid red;color:red;"></h1>
   <br>
   <div class="row">
     <div class="col-md-4">
@@ -169,16 +177,18 @@
       <li class="card-text" >Max Speed - 97.5 kmph</li>
       <li class="card-text" >Max Power 27.2 bhp </li>
       <li class="card-text" >Total Cost. Rs 4,89,000</li>
-       <span id="my_id1" style="display: none;margin-top: 0px;">
+       <span id="my_id1" style="display: none;margin-top: 0px;"> 
     </span>
     </ul>
-    
+    <!--
    
     <button onclick="my_func('my_id1','button1','hide_button1');" id="button1" class="btn btn-primary">Read More..</button>
     
     
-    <button onclick="my_func('my_id1','button1','hide_button1');" class="btn btn-secondary" id="hide_button1" style="display: none;">Read Less..</button>
-  </div>
+    
+   <button onclick="my_func('my_id1','button1','hide_button1');" class="btn btn-secondary" id="hide_button1" style="display: none;">Read Less..</button>
+  -->
+  </div> 
  </div>
 </div>
   
@@ -193,15 +203,15 @@
       <li class="card-text" >Max Speed - 101 kmph</li>
       <li class="card-text" >Max Power. 26.66 hp</li>
       <li class="card-text" >Total Cost - Rs 4,33,000</li>
-      <span id="my_id2" style="display: none;margin-top: 0px;">
-    </span>
+       <span id="my_id2" style="display: none;margin-top: 0px;">
+    </span> 
     </ul>
-    
+    <!--
     <button onclick="my_func('my_id2','button2','hide_button2');" id="button2" class="btn btn-primary">Read More..</button>
     
     
     <button onclick="my_func('my_id2','button2','hide_button2');" class="btn btn-secondary" id="hide_button2" style="display: none;">Read Less..</button>
-
+  -->
   </div>
 </div>
 </div>
@@ -228,7 +238,7 @@
     
     
     <button onclick="my_func('my_id3','button3','hide_button3');" class="btn btn-secondary" id="hide_button3" style="display: none;">Read Less..</button>
-
+  -->
   </div>
 </div></div>
 </div>
@@ -242,15 +252,15 @@
       <li class="card-text" >Speed - 83 kmph </li>
       <li class="card-text" >Max Power. 26.15 hp  </li>
       <li class="card-text" >Total Cost - Rs 4,33,000</li>
-      <span id="my_id4" style="display: none;margin-top: 0px;">
+        <span id="my_id4" style="display: none;margin-top: 0px;"> 
     </span>
     </ul>
-    
+    <!--
 <button onclick="my_func('my_id4','button4','hide_button4');" id="button4" class="btn btn-primary">Read More..</button>
     
     
     <button onclick="my_func('my_id4','button4','hide_button4');" class="btn btn-secondary" id="hide_button4" style="display: none;">Read Less..</button>
-     </div>
+  --></div>
 </div></div>
 </div>
 
@@ -316,15 +326,15 @@
       <li class="card-text" >Mak Speed 90 kmph  </li>
       <li class="card-text" >Max Power - 10.57 bhp   </li>
       <li class="card-text" >Total Cost - Rs 1,04,6000</li>
-      <span id="my_id7" style="display: none;margin-top: 0px;">
+       <span id="my_id7" style="display: none;margin-top: 0px;"> 
     </span>
     </ul>
-  
+  <!--
 <button onclick="my_func('my_id7','button7','hide_button7');" id="button7" class="btn btn-primary">Read More..</button>
     
     
     <button onclick="my_func('my_id7','button7','hide_button7');" class="btn btn-secondary" id="hide_button7" style="display: none;">Read Less..</button>
-
+  -->
   </div></div>
 </div>
 </div>
@@ -345,12 +355,12 @@
       <li class="card-text">Total Cost - Rs 25,000</li>
     </span>
     </ul>
-  
+  <!--
 <button onclick="my_func('my_id8','button8','hide_button8');" id="button8" class="btn btn-primary">Read More..</button>
     
     
     <button onclick="my_func('my_id8','button8','hide_button8');" class="btn btn-secondary" id="hide_button8" style="display: none;">Read Less..</button>
-
+  -->
   </div>
 </div></div>
 </div>
