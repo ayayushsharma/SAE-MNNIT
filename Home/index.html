@@ -149,7 +149,7 @@
             <h4>Our Vision<h4>
             <p>
              The vision of the club is to give young engineers an opportunity to showcase their talents, simultaneously providing
-			 a platform to learn and gain expertise in the fields of R&D, manufacturing associated with
+			       a platform to learn and gain expertise in the fields of R&D, manufacturing associated with
              automobiles.
             </p>
             <h4>Our Mission<h4>
@@ -427,11 +427,16 @@
   <script src="../Common Resource/assets/js/main.js"></script>
   <!-- counter up initiation -->
 <script >
-  $('.counter-text').counterUp({
+$('.counter-text').counterUp({
     delay: 100,
     time: 1200
-});
+})
 
+$('.pagetransition').click(function(e) {
+  e.preventDefault();
+  var linkUrl = $(this).attr('href');
+  setTimeout(function(url) { window.location = url; }, 3000, linkUrl);
+});;
 </script>
 		
 </div> 
