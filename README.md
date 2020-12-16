@@ -8,7 +8,7 @@ This is a website built for SAE Collegiate Club of MNNIT by WEB Team SAE
 4. [Teams](Teams/team.html)
 5. [Achievements](Achievements/achievements.html)
 6. [Gallery](gallery/Gallery.html)
-7. [Faculty Corner](faculty corner/faculty.html)
+7. [Faculty Corner](faculty corner)
 8. [Sponsors](Sponsors/sponsors.html)
 
 ## Instructions :
