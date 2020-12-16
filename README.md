@@ -1,4 +1,4 @@
-# Ampify
+# Website for SAE MNNIT
 This is a website built for SAE Collegiate Club of MNNIT by WEB Team SAE.
 It's address is [https://ayayushsharma.github.io/SAE-MNNIT/Home/index.html](https://ayayushsharma.github.io/SAE-MNNIT/Home/index.html) for now.
 
