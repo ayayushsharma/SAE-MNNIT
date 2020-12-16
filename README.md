@@ -1,7 +1,7 @@
 # Ampify
 This is a website built for SAE Collegiate Club of MNNIT by WEB Team SAE
 
-##Pages in website are
+## Pages in website are
 1. Home
 2. Events
 3. Projects
@@ -11,7 +11,7 @@ This is a website built for SAE Collegiate Club of MNNIT by WEB Team SAE
 7. Faculty Corner
 8. Sponsors
 
-##Instructions :
+## Instructions :
 ### -> Every main page is located in its own folder
 ### -> Images and libraries used by all the pages are located in Common Resource Common (Common Resource/assets)
 ### -> Assets used by individual pages exclusively are in a folder with the page 
