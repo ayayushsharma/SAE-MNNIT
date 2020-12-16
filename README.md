@@ -9,7 +9,7 @@ It's address is [https://ayayushsharma.github.io/SAE-MNNIT/Home/index.html](http
 4. Teams            [Teams/team.html](Teams/team.html)
 5. Achievements     [Achievements/achievements.html](Achievements/achievements.html)
 6. Gallery          [gallery/Gallery.html](gallery/Gallery.html)
-7. Faculty Corner   [faculty corner/faculty.html](faculty corner/faculty.html)
+7. Faculty Corner   [faculty corner/faculty.html](faculty%20corner/faculty.html)
 8. Sponsors         [Sponsors/sponsors.html](Sponsors/sponsors.html)
 
 
