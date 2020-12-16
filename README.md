@@ -12,10 +12,10 @@ This is a website built for SAE Collegiate Club of MNNIT by WEB Team SAE
 8. Sponsors
 
 ## Instructions :
-### -> Every main page is located in its own folder
-### -> Images and libraries used by all the pages are located in Common Resource Common (Common Resource/assets)
-### -> Assets used by individual pages exclusively are in a folder with the page 
-### -> The index page inn the root Directory redirects to the homepage located in the "Home" Folder.
+* Every main page is located in its own folder
+* Images and libraries used by all the pages are located in Common Resource Common (Common Resource/assets)
+* Assets used by individual pages exclusively are in a folder with the page 
+* The index page inn the root Directory redirects to the homepage located in the "Home" Folder.
 
 <a name="contributor"></a>
 
