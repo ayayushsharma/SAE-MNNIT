@@ -17,7 +17,7 @@ It's address is [https://ayayushsharma.github.io/SAE-MNNIT/Home/index.html](http
 * Every main page is located in its own folder
 * Images and libraries used by all the pages are located in Common Resource [Common Resource/assets](Common%20Resource/assets)
 * Assets used by individual pages exclusively are in a folder with the page 
-* The index page in the root Directory redirects to the homepage located in the "Home" Folder after 0 seconds.
+* The index page in the root Directory redirects to the homepage located in the [Home](Home) Folder after 0 seconds.
 
 <a name="contributor"></a>
 ## Contributors:
