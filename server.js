@@ -9,7 +9,7 @@ const contactSAE = require('./mailData');
 const helmet = require('helmet');
 const compression = require('compression');
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 8000;
 
 var urlencodedParser = bodyParser.urlencoded({ extended: false })
 
@@ -111,5 +111,5 @@ app.post('/Home.html', urlencodedParser, (req, res) => {
 });
 
 app.listen(PORT, () => console.log(`Server listening on port: ${PORT}`));
-console.log("http://localhost:3000/");
+console.log(`http://localhost:${PORT}/`);
 
