@@ -1,4 +1,4 @@
 {
-    "algo" : "xxxxx",
-    "key" : "xxxxxx"
+    "algo" : "aes-256-ctr",
+    "key" : "yr10c1DdQqugEotzAvIhm3vVV8H9rdxs"
 }
