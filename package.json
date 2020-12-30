@@ -1,0 +1,21 @@
+{
+  "name": "sae-mnnit",
+  "version": "1.0.0",
+  "description": "a website and web server for sae mnnit website",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "WEB Team SAE MNNIT",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "http": "0.0.1-security",
+    "node-static": "^0.7.11",
+    "nodemailer": "^6.4.17",
+    "path": "^0.12.7"
+  }
+}
