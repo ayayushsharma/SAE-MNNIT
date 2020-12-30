@@ -74,7 +74,13 @@ app.get('/500', (req, res) => {
     res.sendFile(__dirname + '/SAE-MNNIT/500.html');
 });
 
+app.get('/message-sent-successfully', (req, res) => {
+    res.status(500);
+    res.sendFile(__dirname + '/SAE-MNNIT/messageSent.html');
+});
+
 app.get('*', function(req, res){
+    console.log(req.url);
     res.redirect('/404');
 });
 
@@ -101,8 +107,7 @@ app.post('/Home.html', urlencodedParser, (req, res) => {
                 console.log('Email not sent');
                 res.redirect('/500');
             } else {
-                res.status(200);
-                res.sendFile(__dirname + '/SAE-MNNIT/messageSent.html');
+                res.redirect('/message-sent-successfully');
                 console.log('Email sent successfully');
             }
         });
@@ -113,4 +118,6 @@ app.post('/Home.html', urlencodedParser, (req, res) => {
 
 app.listen(PORT, () => console.log(`Server listening on port: ${PORT}`));
 console.log(`http://localhost:${PORT}/`);
+
+
 
