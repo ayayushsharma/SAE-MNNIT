@@ -100,7 +100,8 @@ app.post('/contact', urlencodedParser, (req, res) => {
         subject: String(req.body.subject),
         text: "Name - " + String(req.body.name) + "\nE-mail Address - " + String(req.body.email) + "\nSubject - " + String(req.body.subject) + "\nMessage - " + String(req.body.message)
     };
-
+console.log(contactSAE.mailID);
+console.log(contactSAE.mailPass);
     try {
         mailTransporter.sendMail(mailDetails, function (err, data) {
             if (err) {
