@@ -6,8 +6,9 @@ const path = require('path');
 const bodyParser = require('body-parser');
 const nodemailer = require('nodemailer');
 const contactSAE = require('./mailData');
-const helmet = require('helmet');
+//const helmet = require('helmet');
 const compression = require('compression');
+
 const app = express();
 const PORT = process.env.PORT || 8000;
 
@@ -15,7 +16,7 @@ var urlencodedParser = bodyParser.urlencoded({ extended: false })
 
 app.use(express.static('SAE-MNNIT/static'));
 
-app.use(helmet());
+//app.use(helmet());
 
 app.use(compression());
 

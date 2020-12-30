@@ -2,8 +2,8 @@
 <html lang="en">
 
 <head>
-        <link rel = "stylesheet" type = "text/css" href = "Common Resource/assets/css/preloader.css" />
-        <script type="text/javascript" src="Common Resource/assets/js/preloader.js"></script>
+  <link rel="stylesheet" type="text/css" href="Common Resource/assets/css/preloader.css" />
+  <script type="text/javascript" src="Common Resource/assets/js/preloader.js"></script>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
@@ -14,9 +14,11 @@
   <!-- Favicons -->
   <link href="Common Resource/assets/img/sae_logo.ico" rel="icon">
   <link href="Common Resource/assets/img/sae_logo.ico" rel="Logo-icon">
- 
+
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="Common Resource/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -29,113 +31,120 @@
 
   <!-- Template Main CSS File -->
   <link href="Common Resource/assets/css/style_achievements.css" rel="stylesheet">
-<style>
+  <style>
+    .rainbow {
+      color: #000;
+      background: rgba(255, 253, 160, 1);
+      background: -webkit-linear-gradient(left, rgba(255, 255, 255, 1) 0%, #00ffff 0%, #97fba0 25%, #97b1fb 50%, #00ffff 100%) repeat;
+      -webkit-background-clip: text;
+      -ms-background-clip: text;
+      -moz-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      -ms-text-fill-color: transparent;
+      -moz-text-fill-color: transparent;
+      text-fill-color: transparent;
+      -webkit-animation-name: masked-animation;
+      -webkit-animation-duration: 100s;
+      -webkit-animation-iteration-count: infinite;
+      -webkit-animation-timing-function: linear;
+    }
 
-.rainbow {
-  color: #000;
-  background: rgba(255, 253, 160, 1);
-  background: -webkit-linear-gradient( left, rgba(255,255,255,1) 0%,  #00ffff 0%, #97fba0 25%, #97b1fb 50%, #00ffff 100%) repeat;
-  -webkit-background-clip: text;
-  -ms-background-clip: text;
-  -moz-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -ms-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-  text-fill-color: transparent;
-  -webkit-animation-name: masked-animation;
-  -webkit-animation-duration:100s;
-  -webkit-animation-iteration-count: infinite;
-  -webkit-animation-timing-function: linear;
-}
+    @-webkit-keyframes masked-animation {
+      0% {
+        background-position: 0 0;
+      }
 
-@-webkit-keyframes masked-animation {
-  0% {
-    background-position: 0 0;
-  }
-  100% {
-    background-position: -8000px -3000px;
-  }
-}
+      100% {
+        background-position: -8000px -3000px;
+      }
+    }
 
-sup {
-display:block!important;
-}
-/*----------------------------------------------------------------------------*/
+    sup {
+      display: block !important;
+    }
 
-#car img {
-  position: relative;
-  animation: mymove 5s infinite;
-}
+    /*----------------------------------------------------------------------------*/
 
-@keyframes mymove {
-  from {left:-510px;}
-  to {left: calc( 100% - 0px);}
-}
+    #car img {
+      position: relative;
+      animation: mymove 5s infinite;
+    }
 
-@media screen and (max-width: 768px) {
-#car img {
-position: relative;
-animation: mymove 3.75s infinite;
-}
-}
+    @keyframes mymove {
+      from {
+        left: -510px;
+      }
 
-/*--------------------------------------------------------------------------------*/
+      to {
+        left: calc(100% - 0px);
+      }
+    }
 
-.go{
+    @media screen and (max-width: 768px) {
+      #car img {
+        position: relative;
+        animation: mymove 3.75s infinite;
+      }
+    }
 
-}
+    /*--------------------------------------------------------------------------------*/
 
-</style>
+    .go {}
+  </style>
 
 
 </head>
 
 <body>
 
-	<div id="loader"><img src="Common Resource/assets/img/preloader/preloader.gif"></div>
-        <disv id="content">
-  <!-- ======= Header ======= -->
-  <header id="header" class="header-inner-pages fixed-top">
-    <div class="container d-flex align-items-center justify-content-between">
+  <div id="loader"><img src="Common Resource/assets/img/preloader/preloader.gif"></div>
+  <disv id="content">
+    <!-- ======= Header ======= -->
+    <header id="header" class="header-inner-pages fixed-top">
+      <div class="container d-flex align-items-center justify-content-between">
 
-      <h1 class="logo"><a href="Home.html">SAE MNNIT</a></h1>
-     
-       <a href="Home.html" class="logo"><img src="Common Resource/assets/img/sae_logo (2).png" style="padding-right: 35px;" alt="" class="img-fluid"></a>
+        <h1 class="logo"><a href="Home.html">SAE MNNIT</a></h1>
 
-       <nav class="nav-menu d-none d-lg-block">
-        <ul>
-          <li class="go"><a href="Home.html">Home</a></li>
-          <li class="go"><a href="Events.html">Events</a></li>
-          <li class="go"><a href="Projects.html">Projects</a></li>
-          <li class="go"><a href="Team.html">Teams</a></li>
-          <li class="active go"><a href="Achievements.html">Achievements</a></li>
-          <li class="go"><a href="Gallery.html">Gallery</a></li>
-		      <li class="go"><a href="Faculty Corner.html">Faculty Corner</a></li>
-		      <li class="go"><a href="Sponsors.html">Sponsors</a></li>
-        </ul>
-      </nav><!-- .nav-menu -->
+        <a href="Home.html" class="logo"><img src="Common Resource/assets/img/sae_logo (2).png"
+            style="padding-right: 35px;" alt="" class="img-fluid"></a>
 
-    </div>
-  </header><!-- End Header -->
+        <nav class="nav-menu d-none d-lg-block">
+          <ul>
+            <li class="go"><a href="Home.html">Home</a></li>
+            <li class="go"><a href="Events.html">Events</a></li>
+            <li class="go"><a href="Projects.html">Projects</a></li>
+            <li class="go"><a href="Team.html">Teams</a></li>
+            <li class="active go"><a href="Achievements.html">Achievements</a></li>
+            <li class="go"><a href="Gallery.html">Gallery</a></li>
+            <li class="go"><a href="Faculty Corner.html">Faculty Corner</a></li>
+            <li class="go"><a href="Sponsors.html">Sponsors</a></li>
+          </ul>
+        </nav><!-- .nav-menu -->
+
+      </div>
+    </header><!-- End Header -->
 
     <!-- ======= Achievements Section ======= -->
     <section id="achievements" class="achievements">
       <div data-aos="fade-up">
 
-        <div class="page-section-title" style="background: #333333 url('Common Resource/assets/img/achievements/back.gif') no-repeat center; height:210px;">
+        <div class="page-section-title"
+          style="background: #333333 url('Common Resource/assets/img/achievements/back.gif') no-repeat center; height:210px;">
           <h2 style="position:relative;padding-top:95px;">Achievements</h2>
-		</div>
-		
-		<div class="page-section-title" >
-          <p style="color:rgba(10,10,10,0.8);"><br>The aegis of SAE INDIA COLLEGIATE CLUB OF MNNIT holds a glorified history with numerous laurels and jewels sewed on our fabric<br><br></p>
+        </div>
+
+        <div class="page-section-title">
+          <p style="color:rgba(10,10,10,0.8);"><br>The aegis of SAE INDIA COLLEGIATE CLUB OF MNNIT holds a glorified
+            history with numerous laurels and jewels sewed on our fabric<br><br></p>
         </div>
 
         <div class="column" id="bl">
           <div data-aos="zoom-in-up" data-aos-delay="100">
             <div class="icon-box">
               <h4><a><span class="rainbow">Overall<br>3rd Position</span></a></h4>
-              <p><img src="Common Resource/assets/img/achievements/blue_trophy.png" id="trophy" />Auto India Design Challenge (AIDC) by Spur Motorsports<br></p>
+              <p><img src="Common Resource/assets/img/achievements/blue_trophy.png" id="trophy" />Auto India Design
+                Challenge (AIDC) by Spur Motorsports<br></p>
             </div>
           </div>
 
@@ -145,11 +154,12 @@ animation: mymove 3.75s infinite;
               <p><img src="Common Resource/assets/img/achievements/blue_trophy.png" id="trophy" />EFFICYCLE 2017<br></p>
             </div>
           </div>
-		  
-		  <div data-aos="zoom-in-up" data-aos-delay="100">
+
+          <div data-aos="zoom-in-up" data-aos-delay="100">
             <div class="icon-box">
               <h4><a><span class="rainbow">Best<br>CAE Report</span></a></h4>
-              <p><img src="Common Resource/assets/img/achievements/blue_trophy.png" id="trophy" />Advanced Hybrid EFFICYCLE 2020<br></p>
+              <p><img src="Common Resource/assets/img/achievements/blue_trophy.png" id="trophy" />Advanced Hybrid
+                EFFICYCLE 2020<br></p>
             </div>
           </div>
 
@@ -163,46 +173,49 @@ animation: mymove 3.75s infinite;
           <div data-aos="zoom-in-up" data-aos-delay="100">
             <div class="icon-box">
               <h4><a><span class="rainbow">Ranked<br>17th</span></a></h4>
-              <p><img src="Common Resource/assets/img/achievements/blue_trophy.png" id="trophy" /> EFFICYCLE 2016 out of 105 participating teams<br></p>
+              <p><img src="Common Resource/assets/img/achievements/blue_trophy.png" id="trophy" /> EFFICYCLE 2016 out of
+                105 participating teams<br></p>
             </div>
           </div>
 
           <div data-aos="zoom-in-up" data-aos-delay="100">
             <div class="icon-box">
               <h4><a><span class="rainbow">Attained<br>26th Position</span></a></h4>
-              <p><img src="Common Resource/assets/img/achievements/blue_trophy.png" id="trophy" />SUPRA SAEINDIA 2017<br></p>
+              <p><img src="Common Resource/assets/img/achievements/blue_trophy.png" id="trophy" />SUPRA SAEINDIA
+                2017<br></p>
             </div>
           </div>
 
           <div data-aos="zoom-in-up" data-aos-delay="100">
             <div class="icon-box">
               <h4><a><span class="rainbow">Stood<br>54th</span></a></h4>
-              <p><img src="Common Resource/assets/img/achievements/blue_trophy.png" id="trophy" />SUPRA SAEINDIA 2014<br></p>
+              <p><img src="Common Resource/assets/img/achievements/blue_trophy.png" id="trophy" />SUPRA SAEINDIA
+                2014<br></p>
             </div>
           </div>
-		  
-		   <div data-aos="zoom-in-up" data-aos-delay="100">
+
+          <div data-aos="zoom-in-up" data-aos-delay="100">
             <div class="icon-box">
               <h4><a><span class="rainbow">Cleared<br>Virtual Round</span></a></h4>
               <p style="margin:30px 0px;">BAJA SAEINDIA 2015<br></p>
             </div>
           </div>
-		  
-		   <div data-aos="zoom-in-up" data-aos-delay="100">
+
+          <div data-aos="zoom-in-up" data-aos-delay="100">
             <div class="icon-box">
               <h4><a><span class="rainbow">Cleared<br>Virtual Round</span></a></h4>
               <p style="margin:30px 0px;">E-BAJA SAEINDIA 2018<br></p>
             </div>
           </div>
-		  
-		   <div data-aos="zoom-in-up" data-aos-delay="100">
+
+          <div data-aos="zoom-in-up" data-aos-delay="100">
             <div class="icon-box">
               <h4><a><span class="rainbow">Participated</a></h4>
               <p style="margin:30px 0px;">SUPRA SAEINDIA 2015<br></p>
             </div>
           </div>
-		  
-		  <!--
+
+          <!--
 		  <div data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box" style="border:0px;background-color:#333333;padding:0px;" >
             <img src="../win.gif" style="height:210px; " >
@@ -215,10 +228,10 @@ animation: mymove 3.75s infinite;
       </div>
     </section><!-- End ACHIEVEMENTS Section -->
 
-<section id="car" style="width:100%;padding:0px!important;background: rgb(199,199,199);
+    <section id="car" style="width:100%;padding:0px!important;background: rgb(199,199,199);
 background: linear-gradient(0deg, rgba(220,220,220,1) 0%, rgba(255,255,255,1) 100%);">
-<img src="Common Resource/assets/img/achievements/car 4.gif" style="height:150px;padding-top:100px;" >
-</section>
+      <img src="Common Resource/assets/img/achievements/car 4.gif" style="height:150px;padding-top:100px;">
+    </section>
 
     <!-- ======= Cta Section ======= -->
     <section id="cta" class="cta">
@@ -226,73 +239,78 @@ background: linear-gradient(0deg, rgba(220,220,220,1) 0%, rgba(255,255,255,1) 10
 
         <div class="text-center">
           <h3>"<i id="italic">What’s behind you doesn’t matter</i>"</h3>
-		  <p>— Enzo Ferrari</p>
+          <p>— Enzo Ferrari</p>
         </div>
 
       </div>
     </section><!-- End Cta Section -->
 
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-    <div class="footer-top">
-      <div class="container">
-        <div class="row">
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
 
-          <div class="col-lg-3 col-md-6">
-            <div class="footer-info">
-              <h3>SAE MNNIT</h3>
-              <p>
-               Barrister Mullah Colony,<br>MNNIT Allahabad Campus,<br>Teliarganj,Prayagraj<br>
-              </p>
-              <div class="social-links mt-3">
-                <a href="https://twitter.com/team_Solarec" class="twitter" target="_blank"><i class="bx bxl-twitter"></i></a>
-                <a href="https://www.facebook.com/saeclubmnnit/" class="facebook" target="_blank"><i class="bx bxl-facebook"></i></a>
-                <a href="https://instagram.com/sae_club_mnnit?igshid=1jsixkvh38scx" class="instagram" target="_blank"><i class="bx bxl-instagram"></i></a>
-                <a href="mailto:mnnitsae@gmail.com" class="google-plus"><i class="bx bxl-google" target="_blank"></i></a>
-                <a href="https://in.linkedin.com/company/sae-india-collegiate-club-of-mnnit" class="linkedin" target="_blank"><i class="bx bxl-linkedin"></i></a>
+            <div class="col-lg-3 col-md-6">
+              <div class="footer-info">
+                <h3>SAE MNNIT</h3>
+                <p>
+                  Barrister Mullah Colony,<br>MNNIT Allahabad Campus,<br>Teliarganj,Prayagraj<br>
+                </p>
+                <div class="social-links mt-3">
+                  <a href="https://twitter.com/team_Solarec" class="twitter" target="_blank"><i
+                      class="bx bxl-twitter"></i></a>
+                  <a href="https://www.facebook.com/saeclubmnnit/" class="facebook" target="_blank"><i
+                      class="bx bxl-facebook"></i></a>
+                  <a href="https://instagram.com/sae_club_mnnit?igshid=1jsixkvh38scx" class="instagram"
+                    target="_blank"><i class="bx bxl-instagram"></i></a>
+                  <a href="mailto:mnnitsae@gmail.com" class="google-plus"><i class="bx bxl-google"
+                      target="_blank"></i></a>
+                  <a href="https://in.linkedin.com/company/sae-india-collegiate-club-of-mnnit" class="linkedin"
+                    target="_blank"><i class="bx bxl-linkedin"></i></a>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="Home.html#about">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="Achievements.html">Achievements</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="Team.html">Teams</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="Sponsors.html" target="_blank">Sponsors</a></li>
-			  <li><i class="bx bx-chevron-right"></i> <a href="Home.html#contact"  target="_blank">Contact us</a></li>
-            </ul>
-          </div>
-          <div class="col-lg-6 ">
-            <img src="Common Resource/assets/img/sae_logo (2).png" class="img-logo" alt="logo">
+            <div class="col-lg-2 col-md-6 footer-links">
+              <h4>Useful Links</h4>
+              <ul>
+                <li><i class="bx bx-chevron-right"></i> <a href="Home.html#about">About us</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="Achievements.html">Achievements</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="Team.html">Teams</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="Sponsors.html" target="_blank">Sponsors</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="Home.html#contact" target="_blank">Contact us</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-6 ">
+              <img src="Common Resource/assets/img/sae_logo (2).png" class="img-logo" alt="logo">
+            </div>
           </div>
         </div>
       </div>
+
+    </footer><!-- End Footer -->
+
+    <a href="#" class="back-to-top"><i class="ri-arrow-up-line"></i></a>
+
+
+    <!-- Vendor JS Files -->
+    <script src="Common Resource/assets/vendor/jquery/jquery.min.js"></script>
+    <script src="Common Resource/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="Common Resource/assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+    <script src="Common Resource/assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="Common Resource/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="Common Resource/assets/vendor/venobox/venobox.min.js"></script>
+    <script src="Common Resource/assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+    <script src="Common Resource/assets/vendor/counterup/counterup.min.js"></script>
+    <script src="Common Resource/assets/vendor/aos/aos.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="Common Resource/assets/js/main.js"></script>
+
+    </script>
+
     </div>
-
-  </footer><!-- End Footer -->
-
-  <a href="#" class="back-to-top"><i class="ri-arrow-up-line"></i></a>
-
-
-  <!-- Vendor JS Files -->
-  <script src="Common Resource/assets/vendor/jquery/jquery.min.js"></script>
-  <script src="Common Resource/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="Common Resource/assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-  <script src="Common Resource/assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-  <script src="Common Resource/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="Common Resource/assets/vendor/venobox/venobox.min.js"></script>
-  <script src="Common Resource/assets/vendor/waypoints/jquery.waypoints.min.js"></script>
-  <script src="Common Resource/assets/vendor/counterup/counterup.min.js"></script>
-  <script src="Common Resource/assets/vendor/aos/aos.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="Common Resource/assets/js/main.js"></script>
-
-</script>
-  
-</div>
 </body>
 
 </html>
