@@ -327,7 +327,7 @@
             <div class="col-lg-8 mt-5 mt-lg-0">
 
               <!-- action="messageSent.html" -->
-              <form method="POST" role="form" class="contact-form">
+              <form action="contact" method="POST" role="form" class="contact-form">
                 <div class="form-row">
                   <div class="col-md-6 form-group">
                     <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
@@ -427,29 +427,6 @@
     <script src="Common Resource/assets/js/main.js"></script>
     <script src="Common Resource/assets/js/validate.js"></script>
     <!-- counter up initiation -->
-    <script>
-      /*$('form').on('submit', (e) => {
-          // e.preventDefault();
-  
-          const name = $('#name').val().trim();
-          const email = $('#email').val().trim();
-          const subject = $('#subject').val().trim();
-          const message = $('#message').val().trim();
-  
-          const data = {
-              name,
-              email,
-              subject,
-              message
-          };
-  
-          $.post('/Home.html', data, function() {
-              console.log('Server recieved the Data');
-          });
-      });
-      // document.getElementById('#form-data').reset();*/
-    </script>
-
     <script>
       $('.counter-text').counterUp({
         delay: 100,

@@ -21,7 +21,7 @@ app.use(express.static('SAE-MNNIT/static'));
 app.use(compression());
 
 app.get('/', (req, res) => {
-   res.redirect('/Home.html');
+    res.redirect('/Home.html');
 });
 
 app.get('/Achievements.html', (req, res) => {
@@ -43,7 +43,7 @@ app.get('/Home.html', (req, res) => {
     res.status(200);
     res.sendFile(__dirname + '/SAE-MNNIT/Home.html');
 });
- 
+
 app.get('/Gallery.html', (req, res) => {
     res.status(200);
     res.sendFile(__dirname + '/SAE-MNNIT/Gallery.html');
@@ -79,12 +79,13 @@ app.get('/message-sent-successfully', (req, res) => {
     res.sendFile(__dirname + '/SAE-MNNIT/messageSent.html');
 });
 
-app.get('*', function(req, res){
-    console.log(req.url);
+app.get('*', function (req, res) {
     res.redirect('/404');
 });
 
-app.post('/Home.html', urlencodedParser, (req, res) => {
+app.post('/contact', urlencodedParser, (req, res) => {
+    var d = new Date();
+    console.log(d.getTime());
     const mailTransporter = nodemailer.createTransport({
         service: 'gmail',
         auth: {
@@ -94,14 +95,14 @@ app.post('/Home.html', urlencodedParser, (req, res) => {
     });
 
     const mailDetails = {
-        from:  contactSAE.mailID,
+        from: contactSAE.mailID,
         to: contactSAE.mailID,
         subject: String(req.body.subject),
         text: "Name - " + String(req.body.name) + "\nE-mail Address - " + String(req.body.email) + "\nSubject - " + String(req.body.subject) + "\nMessage - " + String(req.body.message)
     };
-    try{
+
+    try {
         mailTransporter.sendMail(mailDetails, function (err, data) {
-            console.log(mailDetails);
             if (err) {
                 console.log(err);
                 console.log('Email not sent');
@@ -111,13 +112,13 @@ app.post('/Home.html', urlencodedParser, (req, res) => {
                 console.log('Email sent successfully');
             }
         });
-    } catch(error) {
-        
+    } catch (error) {
+
     }
+
 });
 
 app.listen(PORT, () => console.log(`Server listening on port: ${PORT}`));
 console.log(`http://localhost:${PORT}/`);
-
 
 
