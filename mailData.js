@@ -3,8 +3,8 @@ const crypto = require('crypto');
 
 const algorithm = require('./contact_details/encryption.json').algo;
 const Key = require('./contact_details/encryption.json').key;
-const encryptedmailID = require('./contact_details/mailID.json');
-const encryptedmailPass = require('./contact_details/mailPass.json');
+const encryptedmailID = require('./contact_details/mailID.json') || process.env.encryptedmailID;
+const encryptedmailPass = require('./contact_details/mailPass.json') || process.env.encryptedmailID;
 
 const encrypt = (text) => {
     const iv = crypto.randomBytes(16);
