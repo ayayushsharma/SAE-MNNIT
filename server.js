@@ -6,13 +6,18 @@ const path = require('path');
 const bodyParser = require('body-parser');
 const nodemailer = require('nodemailer');
 const contactSAE = require('./mailData');
-
+const helmet = require('helmet');
+const compression = require('compression');
 const app = express();
 const PORT = 3000;
 
 var urlencodedParser = bodyParser.urlencoded({ extended: false })
 
 app.use(express.static('SAE-MNNIT/static'));
+
+app.use(helmet());
+
+app.use(compression());
 
 app.get('/', (req, res) => {
    res.redirect('/Home.html');
@@ -86,7 +91,7 @@ app.post('/Home.html', urlencodedParser, (req, res) => {
 
     const mailDetails = {
         from:  contactSAE.mailID,
-        to: 'ayush007arma@gmail.com',
+        to: contactSAE.mailID,
         subject: String(req.body.subject),
         text: "Name - " + String(req.body.name) + "\nE-mail Address - " + String(req.body.email) + "\nSubject - " + String(req.body.subject) + "\nMessage - " + String(req.body.message)
     };
