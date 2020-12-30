@@ -78,9 +78,6 @@ app.get('*', function(req, res){
 });
 
 app.post('/Home.html', urlencodedParser, (req, res) => {
-    //Send an email here but currently dummy email
-    console.log('Data:', req.body); 
-
     const mailTransporter = nodemailer.createTransport({
         service: 'gmail',
         auth: {
