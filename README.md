@@ -10,7 +10,7 @@
 4. [Team.html](SAE-MNNIT/Team.html)
 5. [Achievements.html](SAE-MNNIT/Achievements.html)
 6. [Gallery.html](SAE-MNNIT/Gallery.html)
-7. [Faculty%20Corner.html](SAE-MNNIT/Faculty%20Corner.html)
+7. [Faculty Corner.html](SAE-MNNIT/Faculty%20Corner.html)
 8. [Sponsors.html](SAE-MNNIT/Sponsors.html)
 9. [messageSent](SAE-MNNIT/messageSent.html), Error [404](SAE-MNNIT/404.html) and [500](SAE-MNNIT/500.html)
 
