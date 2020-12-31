@@ -1,6 +1,6 @@
 # Website for SAE MNNIT
 #### This is a website built for SAE Collegiate Club of MNNIT by WEB Team SAE.
-#### It's address is [https://ayayushsharma.github.io/SAE-MNNIT/Home/index.html](https://ayayushsharma.github.io/SAE-MNNIT/Home/index.html) for now.
+#### It's address is [https://sae-mnnit.herokuapp.com/](https://sae-mnnit.herokuapp.com/) for now.
 
 <a name="pages"></a>
 ## Pages in website are
