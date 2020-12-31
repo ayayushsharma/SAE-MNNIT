@@ -4,7 +4,7 @@ const crypto = require('crypto');
 const algorithm = require('./contact_details/encryption.json').algo;
 const Key = require('./contact_details/encryption.json').key;
 const encryptedmailID = JSON.parse(String(process.env.encryptedmailID));
-const encryptedmailPass = JSON.parse(String(process.env.encryptedmailID));
+const encryptedmailPass = JSON.parse(String(process.env.encryptedmailPass));
 
 const encrypt = (text) => {
     const iv = crypto.randomBytes(16);
