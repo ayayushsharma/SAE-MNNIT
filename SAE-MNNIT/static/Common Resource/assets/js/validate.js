@@ -89,7 +89,7 @@ jQuery(document).ready(function($) {
         i.next('.validate').html((ierror ? (i.attr('data-msg') != undefined ? i.attr('data-msg') : 'wrong Input') : '')).show('blind');
       }
     });
-    if (ferrr) return false;
+    if (ferror) return false;
     else { 
 
         const name = $('#name').val().trim();
@@ -104,13 +104,12 @@ jQuery(document).ready(function($) {
             message
         };
 
-        $.post('/contact', data, function() {
+        $.post('/Home.html', data, function() {
             console.log('Server recieved the Data');
+        }).success(function(){
+          alert("Message Sent");
         });
       }
-    this_form.find('.sent-message').slideUp();
-    this_form.find('.error-message').slideUp();
-    this_form.find('.loading').slideDown();
     
     return false;
   });

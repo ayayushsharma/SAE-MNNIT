@@ -70,22 +70,24 @@ app.get('/404', (req, res) => {
 });
 
 app.get('/500', (req, res) => {
-    res.status(500);
     res.sendFile(__dirname + '/SAE-MNNIT/500.html');
 });
 
 app.get('/message-sent-successfully', (req, res) => {
-    res.status(500);
+    res.status(200);
     res.sendFile(__dirname + '/SAE-MNNIT/messageSent.html');
+});
+
+app.post('/500', (req, res) => {
+    res.sendFile(__dirname + '/SAE-MNNIT/500.html');
 });
 
 app.get('*', function (req, res) {
     res.redirect('/404');
 });
 
-app.post('/contact', urlencodedParser, (req, res) => {
-    var d = new Date();
-    console.log(d.getTime());
+app.post('/Home.html', urlencodedParser, (req, res) => {
+    
     const mailTransporter = nodemailer.createTransport({
         service: 'gmail',
         auth: {
@@ -106,7 +108,7 @@ app.post('/contact', urlencodedParser, (req, res) => {
             if (err) {
                 console.log(err);
                 console.log('Email not sent');
-                res.redirect('/500');
+                res.sendFile(__dirname + '/SAE-MNNIT/500.html');
             } else {
                 res.redirect('/message-sent-successfully');
                 console.log('Email sent successfully');
