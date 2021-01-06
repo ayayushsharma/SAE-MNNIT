@@ -91,7 +91,7 @@ jQuery(document).ready(function($) {
     });
     if (ferror) return false;
     else { 
-
+/*
         const name = $('#name').val().trim();
         const email = $('#email').val().trim();
         const subject = $('#subject').val().trim();
@@ -104,14 +104,13 @@ jQuery(document).ready(function($) {
             message
         };
 
-        $.post('/Home.html', data, function() {
+        $.post('contact-us/form.php', data, function() {
             console.log('Server recieved the Data');
         }).success(function(){
           alert("Message Sent");
-        });
-      }
-    
-    return false;
+        });*/
+        return true;
+      };
   });
 
 });
